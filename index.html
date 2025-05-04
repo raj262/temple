@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vyasaraja Matha</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+
+<body>
+    <div class="top-header d-none d-sm-block">
+        <div class="container d-flex flex-wrap justify-content-between align-items-center">
+            <div class="d-flex gap-3 align-items-center">
+                <a href="tel:+91XXXXXXXXXX" class="text-decoration-none text-dark"><i class="fas fa-phone"></i> +91 XXXX
+                    XXX XXX</a>
+                <a href="mailto:info@vyasarajamatha.org" class="text-decoration-none text-dark"><i
+                        class="fas fa-envelope"></i> info@vyasarajamatha.org</a>
+            </div>
+            <div class="language-selector">
+                <select class="form-select">
+                    <option>English</option>
+                    <option>Kannada</option>
+                    <option>Hindi</option>
+                    <option>Sanskrit</option>
+                </select>
+            </div>
+        </div>
+    </div>
+
+    <nav class="navbar navbar-expand-lg main-header sticky-top">
+        <div class="container d-flex justify-content-between align-items-center px-4">
+            <a class="navbar-brand logo" href="#">Vyasaraja Matha</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="aboutDropdown" role="button"
+                            data-bs-toggle="dropdown">About</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">History</a></li>
+                            <li><a class="dropdown-item" href="#">Deities</a></li>
+                            <li><a class="dropdown-item" href="#">Guru Paramparas</a></li>
+                            <li><a class="dropdown-item" href="#">Branches</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="#">Prandevaru</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Panchanga</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Gallery</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="archivesDropdown" role="button"
+                            data-bs-toggle="dropdown">Archives</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Download</a></li>
+                            <li><a class="dropdown-item" href="#">Video</a></li>
+                            <li><a class="dropdown-item" href="#">Articles</a></li>
+                            <li><a class="dropdown-item" href="#">Audio</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="#">E-Seva</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Contact Us</a></li>
+                    <li class="nav-item"><a class="nav-link text-warning" href="#"><i class="fas fa-user"></i> Login</a>
+                    </li>
+                </ul>
+                <a class="btn donate-btn" href="#">Donate Now</a>
+            </div>
+        </div>
+    </nav>
+
+
+
+    <!-- Banner Slider (Bootstrap Carousel) -->
+    <div id="bannerCarousel" class="carousel slide position-relative" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <!-- Slide 1 -->
+            <div class="carousel-item active"
+                style="height: 600px; background: url('assets/img/banner/06f5f92b8a7a1a23ab042258e504f51b.jpg') center center / cover no-repeat;">
+                <div class="position-absolute top-0 start-0 w-100 h-100" style="background-color: rgba(0,0,0,0.3);">
+                </div>
+                <div class="container h-100 d-flex align-items-center text-white position-relative z-1">
+                    <div class="col-md-8">
+                        <h1 class="display-4 fw-bold mb-3">Preserving Ancient Wisdom</h1>
+                        <p class="lead mb-4">Vyasaraja Matha: A sanctuary of spiritual knowledge and cultural heritage
+                            since 1480</p>
+                        <a href="#" class="btn exp-btn px-4 py-2 text-white">Explore Our Heritage</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 2 -->
+            <div class="carousel-item"
+                style="height: 600px; background: url('assets/img/banner/4599e3500f71e4e7cb66aa6a84a99f99.jpg') center center / cover no-repeat;">
+                <div class="position-absolute top-0 start-0 w-100 h-100" style="background-color: rgba(0,0,0,0.3);">
+                </div>
+                <div class="container h-100 d-flex align-items-center text-white position-relative z-1">
+                    <div class="col-md-8">
+                        <h1 class="display-4 fw-bold mb-3">Sacred Rituals & Traditions</h1>
+                        <p class="lead mb-4">Experience centuries-old ceremonies that connect us to our spiritual roots
+                        </p>
+                        <a href="#" class="btn exp-btn px-4 py-2 text-white">Discover Our Practices</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 3 -->
+            <div class="carousel-item"
+                style="height: 600px; background: url('assets/img/banner/5f278c948709228d06b7afb6fb38827f.jpg') center center / cover no-repeat;">
+                <div class="position-absolute top-0 start-0 w-100 h-100" style="background-color: rgba(0,0,0,0.3);">
+                </div>
+                <div class="container h-100 d-flex align-items-center text-white position-relative z-1">
+                    <div class="col-md-8">
+                        <h1 class="display-4 fw-bold mb-3">Spiritual Guidance</h1>
+                        <p class="lead mb-4">Find peace and purpose through the timeless teachings of our Gurus</p>
+                        <a href="#" class="btn exp-btn px-4 py-2 text-white">Seek Guidance</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Controls -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#bannerCarousel" data-bs-slide="prev">
+           
+            <span class="carousel-control-prev-icon bg-white rounded-circle p-3" aria-hidden="true"> <i class="ri-arrow-left-s-line text-xl"></i></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#bannerCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon bg-white rounded-circle p-3" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+
+        <!-- Indicators -->
+        <div class="carousel-indicators mt-3">
+            <button type="button" data-bs-target="#bannerCarousel" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#bannerCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#bannerCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+    </div>
+
+    <!-- Announcement Section -->
+    <div class="announcement text-white py-2">
+        <div class="container d-flex align-items-center">
+            <div class="fw-semibold me-3 border-end pe-3 d-flex align-items-center">
+                <i class="bi bi-volume-up-fill me-2"></i> Announcement
+            </div>
+            <div class="overflow-hidden flex-grow-1">
+                <div class="marquee">
+                    Special Navarathri celebrations from May 10–19, 2025 | Annual Chariot Festival on June 5, 2025 |
+                    New Vedic Studies program starting July 1, 2025 | Register now for Summer Sanskrit Camp for children
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- </div> -->
+    <!-- About Matha -->
+    <!-- <section class="py-5 bg-white">
+    <div class="container px-4">
+      <h2 class="text-center fw-bold fs-2 mb-5" data-aos="fade-up">About Vyasaraja Matha</h2>
+      <div class="row align-items-center">
+        <div class="col-md-6 mb-4 mb-md-0" data-aos="fade-right">
+          <img src="https://readdy.ai/api/search-image?query=ancient%20hindu%20temple..." alt="Vyasaraja Matha Temple"
+               class="img-fluid rounded shadow">
+        </div>
+        <div class="col-md-6" data-aos="fade-left">
+          <h3 class="fw-bold mb-3">About Vyasaraja Matha</h3>
+          <p class="text-muted mb-3">Founded in the 15th century by Sri Vyasatirtha...</p>
+          <p class="text-muted mb-4">For over five centuries, our institution...</p>
+          <a href="#" class="btn btn-warning text-white fw-medium" data-aos="zoom-in">Learn Our History</a>
+        </div>
+      </div>
+    </div>
+  </section> -->
+    <!-- About Start -->
+
+    <section class="py-5 about" style="background-color: #1b0909;">
+        <div class="container px-4">
+            <div class="row align-items-center">
+                
+                <div class="col-md-6 order-2 order-md-1">
+                    <h2 class=" fw-bold fs-2 mb-5">Sri Vyasa Tirtharu</h2>
+                    <p class="text-muted mb-3">Sri Vyasatirtha (1460–1539) was a renowned philosopher, scholar, and
+                        saint who served as the rajaguru (royal preceptor) to the kings of the Vijayanagara Empire.</p>
+                    <p class="text-muted mb-3">His contributions to Dvaita philosophy, particularly through his works
+                        like Nyayamruta, Tarkatandava, and Tatparya Chandrika, have earned him a place among the
+                        greatest philosophers of India.</p>
+                    <p class="text-muted mb-4">Beyond his philosophical contributions, he established numerous mathas
+                        and temples, including the famous Vyasaraja Matha, to ensure the preservation and propagation of
+                        Vedic knowledge.</p>
+                    <a href="#" class="btn btn-warning text-white fw-medium">Discover His Legacy</a>
+                </div>
+                <div class="col-md-6 order-1 order-md-2 mb-4 mb-md-0">
+                    <img src="https://readdy.ai/api/search-image?query=traditional%20portrait%20of%20ancient%20indian%20sage%2C%20spiritual%20guru%20with%20traditional%20attire%2C%20serene%20expression%2C%20sacred%20thread%2C%20sitting%20in%20meditation%20pose%2C%20spiritual%20aura%2C%20traditional%20painting%20style%2C%20historical%20figure%2C%20wisdom%20personified%2C%20cultural%20heritage&width=600&height=600&seq=5&orientation=portrait"
+                        alt="Sri Vyasa Tirtharu" class="img-fluid rounded shadow">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="sri">
+        <div class="py-5 sri-bg">
+            <div class="container">
+                <div class="row align-items-center">
+
+                    <!-- Image Column -->
+                    <div class="col-lg-4 mb-4 mb-lg-0">
+                        <div class="position-relative">
+                            <div class="mb-3">
+                                <img src="assets/img/1.jpg" alt="about" class="img-fluid rounded shadow">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Text Column -->
+                    <div class="col-lg-8">
+                        <div class="ps-lg-4">
+                            <p class="text-uppercase text-warning fw-semibold mb-2">Education for all rural children</p>
+                            <h4 class="fw-bold mb-4">Sri Vyasaraja Mutt, Sosale</h4>
+                            <p class="blockquote">Śrī Vyāsarāja Maṭha is popularly known as Munitraya (मुनित्रय) Matha
+                                —’the triad of sages’, one of the premier Dvaita Vedanta monasteries (matha) descending
+                                from Hamsanāmaka Bhagavanta, followed by SanakādigaLu, Dūrvāsaru, Jagadguru Śrī
+                                Madhvācārya (incarnation of Shri Vaayu), Śrī Jayatīrtha through Śrī Rajendratīrtha. Śrī
+                                Vyāsarāja Maṭha is the unique pīṭha that has been adorned by Munitrayaru as mentioned in
+                                the following shloka:</p>
+
+                            <p class="blockquote">śrī madhvaḥ kalpavr̥kśaśca jayāryaḥ kāmadhuk smr̥taḥ |
+                                cintāmaṇistu vyāsāryaḥ munitrayamudāhr̥tam ||</p>
+                            <a href="about-us.html" class="btn btn-warning text-white mt-3">Learn More <i
+                                    class="far fa-arrow-right ms-1"></i></a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="py-5" style="background-color: #FBE2CC;">
+        <div class="container">
+            <h2 class="text-center fw-bold mb-5">Swami Tour Schedule</h2>
+            <div class="position-relative mx-auto" style="max-width: 900px;">
+                <!-- Timeline vertical line -->
+                <div class="position-absolute top-0 bottom-0 start-50 translate-middle-x border-start border-line d-none d-md-block"
+                    style="width: 2px; opacity: 0.2;"></div>
+
+                <!-- Entry 1 -->
+                <div class="position-relative mb-5">
+                    <div class="position-absolute start-50 translate-middle border border-white border-circle rounded-circle d-none d-md-block"
+                        style="width: 32px; height: 32px; z-index: 1;"></div>
+                    <div class="row align-items-center">
+                        <div class="col-md-6 text-md-end text-center pe-md-5 mb-3 mb-md-0">
+                            <a href="#" class="btn border-circle rounded-pill px-4 py-2 text-white">May 10, 2025</a>
+                        </div>
+                        <div class="col-md-6 ps-md-5">
+                            <div class="bg-white rounded shadow p-4 text-md-start text-center">
+                                <h4 class="fw-semibold mb-3">Bangalore - Sri Krishna Temple</h4>
+                                <p class="text-muted mb-3">Special discourse on Bhagavad Gita Chapter 12: Bhakti Yoga -
+                                    The Path of Devotion</p>
+                                <div
+                                    class="d-flex align-items-center text-muted justify-content-md-start justify-content-center">
+                                    <i class="bi bi-geo-alt text-black me-2"></i>
+                                    <span>Sri Krishna Temple, Bangalore</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Entry 2 -->
+                <div class="position-relative mb-5">
+                    <div class="position-absolute start-50 translate-middle border border-white border-circle rounded-circle d-none d-md-block"
+                        style="width: 32px; height: 32px; z-index: 1;"></div>
+                    <div class="row align-items-center">
+                        <div class="col-md-6 order-md-2 text-md-start text-center ps-md-5 mb-3 mb-md-0">
+                            <a href="#" class="btn border-circle rounded-pill px-4 py-2 text-white">May 15, 2025</a>
+                        </div>
+                        <div class="col-md-6 order-md-1 text-md-end text-center pe-md-5">
+                            <div class="bg-white rounded shadow p-4 text-md-end text-center">
+                                <h4 class="fw-semibold mb-3">Mysore - Parakala Matha</h4>
+                                <p class="text-muted mb-3">Vedanta discourse series on Upanishads, followed by
+                                    traditional cultural performances</p>
+                                <div
+                                    class="d-flex align-items-center text-muted justify-content-md-end justify-content-center">
+                                    <i class="bi bi-geo-alt text-black me-2"></i>
+                                    <span>Parakala Matha, Mysore</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Entry 3 -->
+                <div class="position-relative mb-5">
+                    <div class="position-absolute start-50 translate-middle border border-white border-circle rounded-circle d-none d-md-block"
+                        style="width: 32px; height: 32px; z-index: 1;"></div>
+                    <div class="row align-items-center">
+                        <div class="col-md-6 text-md-end text-center pe-md-5 mb-3 mb-md-0">
+                            <a href="#" class="btn border-circle rounded-pill px-4 py-2 text-white">May 22, 2025</a>
+                        </div>
+                        <div class="col-md-6 ps-md-5">
+                            <div class="bg-white rounded shadow p-4 text-md-start text-center">
+                                <h4 class="fw-semibold mb-3">Udupi - Krishna Matha</h4>
+                                <p class="text-muted mb-3">Special discourse on Madhva philosophy and traditional temple
+                                    rituals with blessings</p>
+                                <div
+                                    class="d-flex align-items-center text-muted justify-content-md-start justify-content-center">
+                                    <i class="bi bi-geo-alt text-black me-2"></i>
+                                    <span>Krishna Matha, Udupi</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- View More Button -->
+                <div class="text-center mt-5">
+                    <a href="#" class=" border-circle text-white px-4 py-3 rounded-pill">View Complete Schedule</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-5 bg-white event">
+        <div class="container">
+            <h2 class="text-center fw-bold mb-5">Upcoming Events</h2>
+            <div class="row g-4 justify-content-center">
+                <!-- Event 1 -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card border-0 h-100 transition">
+                        <div class="position-relative">
+                            <img src="https://readdy.ai/api/search-image?query=hindu%20temple%20celebration%2C%20traditional%20rituals%2C%20devotees%20gathered%2C%20colorful%20decorations%2C%20spiritual%20atmosphere%2C%20festive%20ambiance%2C%20cultural%20heritage%2C%20religious%20ceremony%2C%20peaceful%20surroundings&width=400&height=250&seq=12&orientation=landscape"
+                                 class="card-img-top" alt="Event Image" style="height: 250px; object-fit: cover;">
+                            <div class="position-absolute top-0 start-0 m-3 bg-white bg-opacity-90 rounded text-center px-3 py-2">
+                                <div class="small text-muted">May</div>
+                                <div class="fs-3 fw-bold text-black">12</div>
+                                <div class="small text-muted">2025</div>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title fw-semibold mb-3">Akshaya Tritiya Celebrations</h5>
+                            <div class="d-flex align-items-center text-muted small mb-3">
+                                <i class="bi bi-clock me-2"></i>
+                                <span>9:00 AM - 9:00 PM</span>
+                                <i class="bi bi-geo-alt ms-3 me-2"></i>
+                                <span>Main Temple</span>
+                            </div>
+                            <a href="#" class="text-black text-decoration-none fw-medium">
+                                Learn More <i class="bi bi-arrow-right ms-1"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Event 2 -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card border-0 h-100 transition">
+                        <div class="position-relative">
+                            <img src="https://readdy.ai/api/search-image?query=hindu%20temple%20celebration%2C%20traditional%20rituals%2C%20devotees%20gathered%2C%20colorful%20decorations%2C%20spiritual%20atmosphere%2C%20festive%20ambiance%2C%20cultural%20heritage%2C%20religious%20ceremony%2C%20peaceful%20surroundings&width=400&height=250&seq=12&orientation=landscape"
+                                 class="card-img-top" alt="Event Image" style="height: 250px; object-fit: cover;">
+                            <div class="position-absolute top-0 start-0 m-3 bg-white bg-opacity-90 rounded text-center px-3 py-2">
+                                <div class="small text-muted">May</div>
+                                <div class="fs-3 fw-bold text-black">12</div>
+                                <div class="small text-muted">2025</div>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title fw-semibold mb-3">Akshaya Tritiya Celebrations</h5>
+                            <div class="d-flex align-items-center text-muted small mb-3">
+                                <i class="bi bi-clock me-2"></i>
+                                <span>9:00 AM - 9:00 PM</span>
+                                <i class="bi bi-geo-alt ms-3 me-2"></i>
+                                <span>Main Temple</span>
+                            </div>
+                            <a href="#" class="text-black text-decoration-none fw-medium">
+                                Learn More <i class="bi bi-arrow-right ms-1"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Event 3 -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card border-0 h-100 transition">
+                        <div class="position-relative">
+                            <img src="https://readdy.ai/api/search-image?query=hindu%20temple%20celebration%2C%20traditional%20rituals%2C%20devotees%20gathered%2C%20colorful%20decorations%2C%20spiritual%20atmosphere%2C%20festive%20ambiance%2C%20cultural%20heritage%2C%20religious%20ceremony%2C%20peaceful%20surroundings&width=400&height=250&seq=12&orientation=landscape"
+                                 class="card-img-top" alt="Event Image" style="height: 250px; object-fit: cover;">
+                            <div class="position-absolute top-0 start-0 m-3 bg-white bg-opacity-90 rounded text-center px-3 py-2">
+                                <div class="small text-muted">May</div>
+                                <div class="fs-3 fw-bold text-black">12</div>
+                                <div class="small text-muted">2025</div>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title fw-semibold mb-3">Akshaya Tritiya Celebrations</h5>
+                            <div class="d-flex align-items-center text-muted small mb-3">
+                                <i class="bi bi-clock me-2"></i>
+                                <span>9:00 AM - 9:00 PM</span>
+                                <i class="bi bi-geo-alt ms-3 me-2"></i>
+                                <span>Main Temple</span>
+                            </div>
+                            <a href="#" class="text-black text-decoration-none fw-medium">
+                                Learn More <i class="bi bi-arrow-right ms-1"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- View All Events Button -->
+            <div class="text-center mt-5">
+                <a href="#" class="border-circle px-4 py-2 rounded-pill text-white">View All Events</a>
+            </div>
+        </div>
+    </section>
+    <!-- Bootstrap 5 Footer -->
+    <footer class="bg-dark text-white pt-5 pb-4">
+        <div class="container">
+            <div class="row">
+
+                <!-- Brand & Social -->
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <h5 class="mb-3" style="font-family: 'Pacifico', cursive;">Vyasaraja Matha</h5>
+                    <p>Preserving and propagating Vedic wisdom and cultural heritage since 1480.</p>
+                    <div class="d-flex gap-2">
+                        <a href="#" class="btn btn-outline-light btn-sm rounded-circle"><i
+                                class="ri-facebook-fill"></i></a>
+                        <a href="#" class="btn btn-outline-light btn-sm rounded-circle"><i
+                                class="ri-twitter-x-fill"></i></a>
+                        <a href="#" class="btn btn-outline-light btn-sm rounded-circle"><i
+                                class="ri-instagram-fill"></i></a>
+                        <a href="#" class="btn btn-outline-light btn-sm rounded-circle"><i
+                                class="ri-youtube-fill"></i></a>
+                    </div>
+                </div>
+
+                <!-- Quick Links -->
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <h5 class="mb-3">Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-white-50 text-decoration-none d-block mb-1">About Us</a></li>
+                        <li><a href="#" class="text-white-50 text-decoration-none d-block mb-1">Events</a></li>
+                        <li><a href="#" class="text-white-50 text-decoration-none d-block mb-1">Panchanga</a></li>
+                        <li><a href="#" class="text-white-50 text-decoration-none d-block mb-1">Gallery</a></li>
+                        <li><a href="#" class="text-white-50 text-decoration-none d-block mb-1">E-Seva</a></li>
+                        <li><a href="#" class="text-white-50 text-decoration-none d-block">Contact Us</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact Info -->
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <h5 class="mb-3">Contact Information</h5>
+                    <ul class="list-unstyled text-white-50">
+                        <li class="mb-2"><i class="ri-map-pin-line me-2"></i>123 Temple Street, Bangalore, India -
+                            560001</li>
+                        <li class="mb-2"><i class="ri-phone-line me-2"></i>+91 9876543210</li>
+                        <li><i class="ri-mail-line me-2"></i>info@vyasarajamatha.org</li>
+                    </ul>
+                </div>
+
+                <!-- App Download -->
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <h5 class="mb-3">Download Our App</h5>
+                    <p class="text-white-50">Get access to exclusive content, event updates, and more.</p>
+                    <a href="#" class="btn btn-light d-flex align-items-center mb-2">
+                        <i class="ri-apple-fill fs-4 me-2"></i>
+                        <div>
+                            <small>Download on the</small><br><strong>App Store</strong>
+                        </div>
+                    </a>
+                    <a href="#" class="btn btn-light d-flex align-items-center">
+                        <i class="ri-google-play-fill fs-4 me-2"></i>
+                        <div>
+                            <small>Get it on</small><br><strong>Google Play</strong>
+                        </div>
+                    </a>
+                </div>
+
+            </div>
+
+            <!-- Bottom -->
+            <div
+                class="border-top border-secondary pt-3 mt-4 d-flex flex-column flex-md-row justify-content-between align-items-center">
+                <p class="mb-2 mb-md-0 text-white-50">&copy; 2025 Vyasaraja Matha. All rights reserved.</p>
+                <div class="d-flex gap-3">
+                    <a href="#" class="text-white-50 text-decoration-none">Privacy Policy</a>
+                    <a href="#" class="text-white-50 text-decoration-none">Terms & Conditions</a>
+                    <a href="#" class="text-white-50 text-decoration-none">Sitemap</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button type="button" id="scrollTopBtn" class="btn btn-primary position-fixed bottom-0 end-0 m-4 d-none">
+        <i class="ri-arrow-up-line fs-5"></i>
+    </button>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+    <script>
+        const scrollTopBtn = document.getElementById("scrollTopBtn");
+
+        window.addEventListener("scroll", () => {
+            if (window.scrollY > 300) {
+                scrollTopBtn.classList.remove("d-none");
+            } else {
+                scrollTopBtn.classList.add("d-none");
+            }
+        });
+
+        scrollTopBtn.addEventListener("click", () => {
+            window.scrollTo({ top: 0, behavior: "smooth" });
+        });
+    </script>
+</body>
+
+</html>

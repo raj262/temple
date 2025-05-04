@@ -1,0 +1,158 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #F8F8F8;
+  }
+  
+  .top-header {
+    background-color: #FBE2CC;
+    border-bottom: 1px solid #F2870C;
+    font-size: 14px;
+    padding: 8px 0;
+  }
+  
+  .top-header .sloka {
+    font-style: italic;
+    color: #555;
+  }
+  
+  .language-selector select {
+    border: 1px solid #F2870C;
+    border-radius: 4px;
+    padding: 4px 8px;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .main-header {
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .logo {
+    font-size: 22px;
+    font-weight: 700;
+    color: #F2870C;
+  }
+  
+  .navbar-nav .nav-link {
+    color: #333;
+    font-weight: 500;
+  }
+  
+  .navbar-nav .nav-link:hover,
+  .navbar-nav .nav-link.active {
+    color: #F2870C;
+  }
+  
+  .donate-btn {
+    background-color: #F2870C;
+    color: white;
+    font-weight: 600;
+  }
+  
+  .donate-btn:hover {
+    background-color: #e07a0a;
+  }
+.sri-bg{
+  background: #0000004f;
+}
+  .sri {
+    background-image: url('../img/banner/sl_051121_42790_28.jpg'); /* Replace with your background image path */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: white; /* Optional: Adjust for readability */
+  }
+
+  .marquee {
+    display: inline-block;
+    white-space: nowrap;
+    animation: marquee 20s linear infinite;
+  }
+
+  @keyframes marquee {
+    0% { transform: translateX(100%); }
+    100% { transform: translateX(-100%); }
+  }
+
+  .announcement{
+    background-color: #F2870C;
+  }
+
+
+  .blockquote {
+    /* position: relative; */
+    font-size: 14px;
+    color: #fff;
+    background-size: cover;
+    /* margin: 20px 0px;
+    padding: 10px 30px; */
+    background-position: center center;
+    /* border-left: 2px solid #fff; */
+  }
+  
+  /* .blockquote::before {
+    content: "";
+    position: absolute;
+    left: -9px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 2px;
+    height: 30px;
+    background-color: #F2870C;
+} */
+
+/* .blockquote::after {
+  content: "";
+  position: absolute;
+  left: 6px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 2px;
+  height: 30px;
+  background-color: #F2870C;
+} */
+
+.about{
+  background-image: url('../img//banner/daae191e59.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.schedule{
+  background-color: #F2870C;
+  color: #fff;
+  text-decoration: inherit;
+}
+
+.border-line{
+  border-color: #F2870C!important;
+}
+
+.border-circle, .exp-btn{
+  background-color: #F2870C;
+  text-decoration: none;
+}
+
+.border-circle:hover{
+  background-color: #F2870C!important;
+}
+
+.event{
+   background-image: url('../img/banner/image-113.png');
+   --background-overlay: '';
+   background-position: bottom left;
+   background-repeat: no-repeat;
+}
+
+.card-body{
+  background-color: #fbe2cc;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.card:hover{
+  box-shadow: rgb(229 107 0) 0px 25px 20px -20px
+}
