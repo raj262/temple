@@ -12639,7 +12639,7 @@ Header Customization
 }
 
 .event-date .month {
-  color: red;
+  color: #ff681a;
   text-transform: uppercase;
   font-size: 14px;
 }
