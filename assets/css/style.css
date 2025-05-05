@@ -3000,7 +3000,9 @@ Header Customization
 }
 
 .header-layout1 {
-  background-color: var(--title-color);
+  /* background-color: var(--title-color); */
+  background-color: rgb(251, 226, 204);
+
 }
 
 .header-layout2 .header-top {
