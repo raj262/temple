@@ -3629,7 +3629,7 @@ Header Customization
 .cta-style1 {
   position: relative;
   background-color: var(--theme-color);
-  padding: 0 60px;
+  padding: 30px 60px;
   border-radius: 10px;
 }
 
