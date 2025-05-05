@@ -1,775 +1,1377 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html class="no-js" lang="zxx">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vyasaraja Matha</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
-        rel="stylesheet" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
-    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Vyasaraja Matha
+  </title>
+  <meta name="author" content="vecuro">
+  <meta name="description" content="Travolo -  Travel Agency & Tour Booking HTML Template">
+  <meta name="keywords" content="Travolo -  Travel Agency & Tour Booking HTML Template">
+  <meta name="robots" content="INDEX,FOLLOW">
 
-    <link rel="stylesheet" href="assets/css/style.css" />
+  <!-- Mobile Specific Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Favicons - Place favicon.ico in the root directory -->
+  <!-- <link rel="icon" type="image/png" href="assets/img/favicons/favicon.png"> -->
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="theme-color" content="#ffffff">
+
+  <!--==============================
+	  Google Fonts
+	============================== -->
+  <link rel="preconnect" href="https://fonts.googleapis.com/">
+  <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet">
+
+  <!--==============================
+	    All CSS File
+	============================== -->
+  <!-- Bootstrap -->
+  <!-- <link rel="stylesheet" href="assets/css/app.min.css"> -->
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <!-- Fontawesome Icon -->
+  <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+  <!-- Magnific Popup -->
+  <link rel="stylesheet" href="assets/css/magnific-popup.min.css">
+  <!-- Slick Slider -->
+  <link rel="stylesheet" href="assets/css/slick.min.css">
+  <!-- Theme Custom CSS -->
+  <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
-    <div class="top-header d-none d-sm-block">
-        <div class="container d-flex flex-wrap justify-content-between align-items-center">
-            <div class="d-flex gap-3 align-items-center">
-                <a href="tel:+91XXXXXXXXXX" class="text-decoration-none text-dark"><i class="fas fa-phone"></i> +91 XXXX
-                    XXX XXX</a>
-                <a href="mailto:info@vyasarajamatha.org" class="text-decoration-none text-dark"><i
-                        class="fas fa-envelope"></i> info@vyasarajamatha.org</a>
-            </div>
-            <div class="language-selector">
-                <select class="form-select">
-                    <option>English</option>
-                    <option>Kannada</option>
-                    <option>Hindi</option>
-                    <option>Sanskrit</option>
-                </select>
-            </div>
-        </div>
+
+  <!--********************************
+  Code Start From Here 
+	******************************** -->
+
+  <!--==============================
+    Mobile Menu
+  ============================== -->
+  <div class="vs-menu-wrapper">
+    <div class="vs-menu-area text-center">
+      <button class="vs-menu-toggle"><i class="fal fa-times"></i></button>
+      <div class="mobile-logo">
+        <a href="index.html"><img src="assets/img/logo.svg" alt="Travolo"></a>
+      </div>
+      <div class="vs-mobile-menu">
+        <ul>
+          <li class="menu-item-has-children">
+            <a href="index.html">Home</a>
+            <ul class="sub-menu">
+              <li><a href="index.html">Home One</a></li>
+              <li><a href="index-2.html">Home Two</a></li>
+              <li><a href="index-3.html">Home Three</a></li>
+              <li><a href="index-4.html">Home Four</a></li>
+              <li><a href="index-5.html">Home Five</a></li>
+              <li><a href="index-6.html">Home Six</a></li>
+            </ul>
+          </li>
+          <li class="menu-item-has-children">
+            <a href="#">Destinations</a>
+            <ul class="sub-menu">
+              <li><a href="destinations.html">Destinations</a></li>
+              <li><a href="destination-details.html">Destinations Details</a></li>
+            </ul>
+          </li>
+          <li class="menu-item-has-children">
+            <a href="#">Pages</a>
+            <ul class="sub-menu">
+              <li><a href="about.html">About Us</a></li>
+              <li><a href="tours.html">Tours List</a></li>
+              <li><a href="tour-booking.html">Tour Booking</a></li>
+              <li><a href="destinations.html">Destinations</a></li>
+              <li><a href="destination-details.html">Destinations Details</a></li>
+              <li><a href="error.html">Error</a></li>
+            </ul>
+          </li>
+          <li class="menu-item-has-children">
+            <a href="#">Tours</a>
+            <ul class="sub-menu">
+              <li><a href="tours.html">Tours List</a></li>
+              <li><a href="tour-booking.html">Tour Booking</a></li>
+            </ul>
+          </li>
+          <li class="menu-item-has-children">
+            <a href="#">Shop</a>
+            <ul class="sub-menu">
+              <li><a href="shop.html">Shop</a></li>
+              <li><a href="shop-details.html">Shop Details</a></li>
+              <li><a href="cart.html">Cart</a></li>
+              <li><a href="checkout.html">Checkout</a></li>
+            </ul>
+          </li>
+          <li class="menu-item-has-children">
+            <a href="#">Blog</a>
+            <ul class="sub-menu">
+              <li><a href="blog.html">Blog List</a></li>
+              <li><a href="blog-grid.html">Blog Grid</a></li>
+              <li><a href="blog-details.html">Blog Details</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
     </div>
+  </div>
 
-    <nav class="navbar navbar-expand-lg main-header sticky-top">
-        <div class="container d-flex justify-content-between align-items-center px-4">
-            <a class="navbar-brand logo" href="#">Vyasaraja Matha</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav mx-auto">
-                    <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="aboutDropdown" role="button"
-                            data-bs-toggle="dropdown">About</a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">History</a></li>
-                            <li><a class="dropdown-item" href="#">Deities</a></li>
-                            <li><a class="dropdown-item" href="#">Guru Paramparas</a></li>
-                            <li><a class="dropdown-item" href="#">Branches</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item"><a class="nav-link" href="#">Prandevaru</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Panchanga</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Gallery</a></li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="archivesDropdown" role="button"
-                            data-bs-toggle="dropdown">Archives</a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Download</a></li>
-                            <li><a class="dropdown-item" href="#">Video</a></li>
-                            <li><a class="dropdown-item" href="#">Articles</a></li>
-                            <li><a class="dropdown-item" href="#">Audio</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item"><a class="nav-link" href="#">E-Seva</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Contact Us</a></li>
-                    <li class="nav-item"><a class="nav-link text-warning" href="#"><i class="fas fa-user"></i> Login</a>
-                    </li>
-                </ul>
-                <a class="btn donate-btn" href="#">Donate Now</a>
-            </div>
+  <!--==============================
+    Sidemenu
+  ============================== -->
+  <div class="sidemenu-wrapper offcanvas-wrapper d-none d-lg-block">
+    <div class="sidemenu-content">
+      <button class="closeButton sideMenuCls">
+        <i class="far fa-times"></i>
+      </button>
+      <div class="widget">
+        <div class="vs-widget-about">
+          <div class="footer-logo">
+            <a href="index.html"><img src="assets/img/logo.svg" alt="Travolo"></a>
+          </div>
+          <p class="footer-text">
+            Ut tellus dolor, dapibus eget, elementum ifend cursus eleifend,
+            elit. Aenea ifen dn tor wisi Aliquam er at volutpat. Dui ac tui
+            end cursus eleifendrpis.
+          </p>
+          <div class="info-social style2">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#"><i class="fab fa-google"></i></a>
+          </div>
         </div>
-    </nav>
-
-
-
-    <!-- Banner Slider (Bootstrap Carousel) -->
-    <div id="bannerCarousel" class="carousel slide position-relative" data-bs-ride="carousel">
-        <div class="carousel-inner">
-            <!-- Slide 1 -->
-            <div class="carousel-item active"
-                style="height: 600px; background: url('assets/img/banner/06f5f92b8a7a1a23ab042258e504f51b.jpg') center center / cover no-repeat;">
-                <div class="position-absolute top-0 start-0 w-100 h-100" style="background-color: rgba(0,0,0,0.3);">
-                </div>
-                <div class="container h-100 d-flex align-items-center text-white position-relative z-1">
-                    <div class="col-md-8">
-                        <h1 class="display-4 fw-bold mb-3">Preserving Ancient Wisdom</h1>
-                        <p class="lead mb-4">Vyasaraja Matha: A sanctuary of spiritual knowledge and cultural heritage
-                            since 1480</p>
-                        <a href="#" class="btn exp-btn px-4 py-2 text-white">Explore Our Heritage</a>
-                    </div>
-                </div>
+      </div>
+      <div class="widget">
+        <h3 class="widget_title">Recent Articles</h3>
+        <div class="recent-post-wrap">
+          <div class="recent-post">
+            <div class="media-img">
+              <a href="blog-details.html"><img src="assets/img/blog/recent-post1.jpg" alt="Blog Image"></a>
             </div>
-
-            <!-- Slide 2 -->
-            <div class="carousel-item"
-                style="height: 600px; background: url('assets/img/banner/4599e3500f71e4e7cb66aa6a84a99f99.jpg') center center / cover no-repeat;">
-                <div class="position-absolute top-0 start-0 w-100 h-100" style="background-color: rgba(0,0,0,0.3);">
-                </div>
-                <div class="container h-100 d-flex align-items-center text-white position-relative z-1">
-                    <div class="col-md-8">
-                        <h1 class="display-4 fw-bold mb-3">Sacred Rituals & Traditions</h1>
-                        <p class="lead mb-4">Experience centuries-old ceremonies that connect us to our spiritual roots
-                        </p>
-                        <a href="#" class="btn exp-btn px-4 py-2 text-white">Discover Our Practices</a>
-                    </div>
-                </div>
+            <div class="media-body">
+              <div class="recent-post-meta">
+                <i class="fal fa-calendar-alt"></i>
+                <a href="blog.html">December 15, 2022</a>
+              </div>
+              <h4 class="post-title">
+                <a class="text-inherit" href="blog-details.html">We are Giving Amazing Tour for VIP</a>
+              </h4>
             </div>
-
-            <!-- Slide 3 -->
-            <div class="carousel-item"
-                style="height: 600px; background: url('assets/img/banner/5f278c948709228d06b7afb6fb38827f.jpg') center center / cover no-repeat;">
-                <div class="position-absolute top-0 start-0 w-100 h-100" style="background-color: rgba(0,0,0,0.3);">
-                </div>
-                <div class="container h-100 d-flex align-items-center text-white position-relative z-1">
-                    <div class="col-md-8">
-                        <h1 class="display-4 fw-bold mb-3">Spiritual Guidance</h1>
-                        <p class="lead mb-4">Find peace and purpose through the timeless teachings of our Gurus</p>
-                        <a href="#" class="btn exp-btn px-4 py-2 text-white">Seek Guidance</a>
-                    </div>
-                </div>
+          </div>
+          <div class="recent-post">
+            <div class="media-img">
+              <a href="blog-details.html"><img src="assets/img/blog/recent-post2.jpg" alt="Blog Image"></a>
             </div>
-        </div>
-
-        <!-- Controls -->
-        <button class="carousel-control-prev" type="button" data-bs-target="#bannerCarousel" data-bs-slide="prev">
-
-            <span class="carousel-control-prev-icon bg-white rounded-circle p-3" aria-hidden="true"> <i
-                    class="ri-arrow-left-s-line text-xl"></i></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#bannerCarousel" data-bs-slide="next">
-            <span class="carousel-control-next-icon bg-white rounded-circle p-3" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
-
-        <!-- Indicators -->
-        <div class="carousel-indicators mt-3">
-            <button type="button" data-bs-target="#bannerCarousel" data-bs-slide-to="0" class="active"
-                aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#bannerCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#bannerCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        </div>
-    </div>
-
-    <!-- Announcement Section -->
-    <div class="announcement text-white py-2">
-        <div class="container d-flex align-items-center">
-            <div class="fw-semibold me-3 border-end pe-3 d-flex align-items-center">
-                <i class="bi bi-volume-up-fill me-2"></i> Announcement
+            <div class="media-body">
+              <div class="recent-post-meta">
+                <i class="fal fa-calendar-alt"></i>
+                <a href="blog.html">March 13, 2022</a>
+              </div>
+              <h4 class="post-title">
+                <a class="text-inherit" href="blog-details.html">The journey journal chronicles of a wandering soul</a>
+              </h4>
             </div>
-            <div class="overflow-hidden flex-grow-1">
-                <div class="marquee">
-                    Special Navarathri celebrations from May 10–19, 2025 | Annual Chariot Festival on June 5, 2025 |
-                    New Vedic Studies program starting July 1, 2025 | Register now for Summer Sanskrit Camp for children
-                </div>
+          </div>
+          <div class="recent-post">
+            <div class="media-img">
+              <a href="blog-details.html"><img src="assets/img/blog/recent-post3.jpg" alt="Blog Image"></a>
             </div>
-        </div>
-    </div>
-
-    <!-- </div> -->
-    <!-- About Matha -->
-    <!-- <section class="py-5 bg-white">
-    <div class="container px-4">
-      <h2 class="text-center fw-bold fs-2 mb-5" data-aos="fade-up">About Vyasaraja Matha</h2>
-      <div class="row align-items-center">
-        <div class="col-md-6 mb-4 mb-md-0" data-aos="fade-right">
-          <img src="https://readdy.ai/api/search-image?query=ancient%20hindu%20temple..." alt="Vyasaraja Matha Temple"
-               class="img-fluid rounded shadow">
-        </div>
-        <div class="col-md-6" data-aos="fade-left">
-          <h3 class="fw-bold mb-3">About Vyasaraja Matha</h3>
-          <p class="text-muted mb-3">Founded in the 15th century by Sri Vyasatirtha...</p>
-          <p class="text-muted mb-4">For over five centuries, our institution...</p>
-          <a href="#" class="btn btn-warning text-white fw-medium" data-aos="zoom-in">Learn Our History</a>
+            <div class="media-body">
+              <div class="recent-post-meta">
+                <i class="fal fa-calendar-alt"></i>
+                <a href="blog.html">Augest 23, 2022</a>
+              </div>
+              <h4 class="post-title">
+                <a class="text-inherit" href="blog-details.html">Roam And Revel captivating at tellus.</a>
+              </h4>
+            </div>
+          </div>
         </div>
       </div>
     </div>
-  </section> -->
-    <!-- About Start -->
+  </div>
 
-    <section class="py-5 about" style="background-color: #1b0909;">
-        <div class="container px-4">
-            <div class="row align-items-center">
-
-                <div class="col-md-6 order-2 order-md-1">
-                    <h2 class=" fw-bold fs-2 mb-5">Sri Vyasa Tirtharu</h2>
-                    <p class="text-muted mb-3">Sri Vyasatirtha (1460–1539) was a renowned philosopher, scholar, and
-                        saint who served as the rajaguru (royal preceptor) to the kings of the Vijayanagara Empire.</p>
-                    <p class="text-muted mb-3">His contributions to Dvaita philosophy, particularly through his works
-                        like Nyayamruta, Tarkatandava, and Tatparya Chandrika, have earned him a place among the
-                        greatest philosophers of India.</p>
-                    <p class="text-muted mb-4">Beyond his philosophical contributions, he established numerous mathas
-                        and temples, including the famous Vyasaraja Matha, to ensure the preservation and propagation of
-                        Vedic knowledge.</p>
-                    <a href="#" class="btn btn-warning text-white fw-medium">Discover His Legacy</a>
-                </div>
-                <div class="col-md-6 order-1 order-md-2 mb-4 mb-md-0">
-                    <img src="https://readdy.ai/api/search-image?query=traditional%20portrait%20of%20ancient%20indian%20sage%2C%20spiritual%20guru%20with%20traditional%20attire%2C%20serene%20expression%2C%20sacred%20thread%2C%20sitting%20in%20meditation%20pose%2C%20spiritual%20aura%2C%20traditional%20painting%20style%2C%20historical%20figure%2C%20wisdom%20personified%2C%20cultural%20heritage&width=600&height=600&seq=5&orientation=portrait"
-                        alt="Sri Vyasa Tirtharu" class="img-fluid rounded shadow">
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="sri">
-        <div class="py-5 sri-bg">
-            <div class="container">
-                <div class="row align-items-center">
-
-                    <!-- Image Column -->
-                    <div class="col-lg-4 mb-4 mb-lg-0">
-                        <div class="position-relative">
-                            <div class="mb-3">
-                                <img src="assets/img/1.jpg" alt="about" class="img-fluid rounded shadow">
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Text Column -->
-                    <div class="col-lg-8">
-                        <div class="ps-lg-4">
-                            <p class="text-uppercase text-warning fw-semibold mb-2">Education for all rural children</p>
-                            <h4 class="fw-bold mb-4">Sri Vyasaraja Mutt, Sosale</h4>
-                            <p class="blockquote">Śrī Vyāsarāja Maṭha is popularly known as Munitraya (मुनित्रय) Matha
-                                —’the triad of sages’, one of the premier Dvaita Vedanta monasteries (matha) descending
-                                from Hamsanāmaka Bhagavanta, followed by SanakādigaLu, Dūrvāsaru, Jagadguru Śrī
-                                Madhvācārya (incarnation of Shri Vaayu), Śrī Jayatīrtha through Śrī Rajendratīrtha. Śrī
-                                Vyāsarāja Maṭha is the unique pīṭha that has been adorned by Munitrayaru as mentioned in
-                                the following shloka:</p>
-
-                            <p class="blockquote">śrī madhvaḥ kalpavr̥kśaśca jayāryaḥ kāmadhuk smr̥taḥ |
-                                cintāmaṇistu vyāsāryaḥ munitrayamudāhr̥tam ||</p>
-                            <a href="about-us.html" class="btn btn-warning text-white mt-3">Learn More <i
-                                    class="far fa-arrow-right ms-1"></i></a>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-
-    </section>
-
-    <section class="py-5" style="background-color: #FBE2CC;">
-        <div class="container">
-            <h2 class="text-center fw-bold mb-5">Swami Tour Schedule</h2>
-            <div class="position-relative mx-auto" style="max-width: 900px;">
-                <!-- Timeline vertical line -->
-                <div class="position-absolute top-0 bottom-0 start-50 translate-middle-x border-start border-line d-none d-md-block"
-                    style="width: 2px; opacity: 0.2;"></div>
-
-                <!-- Entry 1 -->
-                <div class="position-relative mb-5">
-                    <div class="position-absolute start-50 translate-middle border border-white border-circle rounded-circle d-none d-md-block"
-                        style="width: 32px; height: 32px; z-index: 1;"></div>
-                    <div class="row align-items-center">
-                        <div class="col-md-6 text-md-end text-center pe-md-5 mb-3 mb-md-0">
-                            <a href="#" class="btn border-circle rounded-pill px-4 py-2 text-white">May 10, 2025</a>
-                        </div>
-                        <div class="col-md-6 ps-md-5">
-                            <div class="bg-white rounded shadow p-4 text-md-start text-center">
-                                <h4 class="fw-semibold mb-3">Bangalore - Sri Krishna Temple</h4>
-                                <p class="text-muted mb-3">Special discourse on Bhagavad Gita Chapter 12: Bhakti Yoga -
-                                    The Path of Devotion</p>
-                                <div
-                                    class="d-flex align-items-center text-muted justify-content-md-start justify-content-center">
-                                    <i class="bi bi-geo-alt text-black me-2"></i>
-                                    <span>Sri Krishna Temple, Bangalore</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Entry 2 -->
-                <div class="position-relative mb-5">
-                    <div class="position-absolute start-50 translate-middle border border-white border-circle rounded-circle d-none d-md-block"
-                        style="width: 32px; height: 32px; z-index: 1;"></div>
-                    <div class="row align-items-center">
-                        <div class="col-md-6 order-md-2 text-md-start text-center ps-md-5 mb-3 mb-md-0">
-                            <a href="#" class="btn border-circle rounded-pill px-4 py-2 text-white">May 15, 2025</a>
-                        </div>
-                        <div class="col-md-6 order-md-1 text-md-end text-center pe-md-5">
-                            <div class="bg-white rounded shadow p-4 text-md-end text-center">
-                                <h4 class="fw-semibold mb-3">Mysore - Parakala Matha</h4>
-                                <p class="text-muted mb-3">Vedanta discourse series on Upanishads, followed by
-                                    traditional cultural performances</p>
-                                <div
-                                    class="d-flex align-items-center text-muted justify-content-md-end justify-content-center">
-                                    <i class="bi bi-geo-alt text-black me-2"></i>
-                                    <span>Parakala Matha, Mysore</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Entry 3 -->
-                <div class="position-relative mb-5">
-                    <div class="position-absolute start-50 translate-middle border border-white border-circle rounded-circle d-none d-md-block"
-                        style="width: 32px; height: 32px; z-index: 1;"></div>
-                    <div class="row align-items-center">
-                        <div class="col-md-6 text-md-end text-center pe-md-5 mb-3 mb-md-0">
-                            <a href="#" class="btn border-circle rounded-pill px-4 py-2 text-white">May 22, 2025</a>
-                        </div>
-                        <div class="col-md-6 ps-md-5">
-                            <div class="bg-white rounded shadow p-4 text-md-start text-center">
-                                <h4 class="fw-semibold mb-3">Udupi - Krishna Matha</h4>
-                                <p class="text-muted mb-3">Special discourse on Madhva philosophy and traditional temple
-                                    rituals with blessings</p>
-                                <div
-                                    class="d-flex align-items-center text-muted justify-content-md-start justify-content-center">
-                                    <i class="bi bi-geo-alt text-black me-2"></i>
-                                    <span>Krishna Matha, Udupi</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- View More Button -->
-                <div class="text-center mt-5">
-                    <a href="#" class=" border-circle text-white px-4 py-3 rounded-pill">View Complete Schedule</a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="py-5 bg-white event">
-        <div class="container">
-            <h2 class="text-center fw-bold mb-5">Upcoming Events</h2>
-            <div class="row g-4 justify-content-center">
-                <!-- Event 1 -->
-                <div class="col-12 col-md-6 col-lg-4">
-                    <div class="card border-0 h-100 transition">
-                        <div class="position-relative">
-                            <img src="https://readdy.ai/api/search-image?query=hindu%20temple%20celebration%2C%20traditional%20rituals%2C%20devotees%20gathered%2C%20colorful%20decorations%2C%20spiritual%20atmosphere%2C%20festive%20ambiance%2C%20cultural%20heritage%2C%20religious%20ceremony%2C%20peaceful%20surroundings&width=400&height=250&seq=12&orientation=landscape"
-                                class="card-img-top" alt="Event Image" style="height: 250px; object-fit: cover;">
-                            <div
-                                class="position-absolute top-0 start-0 m-3 bg-white bg-opacity-90 rounded text-center px-3 py-2">
-                                <div class="small text-muted">May</div>
-                                <div class="fs-3 fw-bold text-black">12</div>
-                                <div class="small text-muted">2025</div>
-                            </div>
-                        </div>
-                        <div class="card-body">
-                            <h5 class="card-title fw-semibold mb-3">Akshaya Tritiya Celebrations</h5>
-                            <div class="d-flex align-items-center text-muted small mb-3">
-                                <i class="bi bi-clock me-2"></i>
-                                <span>9:00 AM - 9:00 PM</span>
-                                <i class="bi bi-geo-alt ms-3 me-2"></i>
-                                <span>Main Temple</span>
-                            </div>
-                            <a href="#" class="text-black text-decoration-none fw-medium">
-                                Learn More <i class="bi bi-arrow-right ms-1"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Event 2 -->
-                <div class="col-12 col-md-6 col-lg-4">
-                    <div class="card border-0 h-100 transition">
-                        <div class="position-relative">
-                            <img src="https://readdy.ai/api/search-image?query=hindu%20temple%20celebration%2C%20traditional%20rituals%2C%20devotees%20gathered%2C%20colorful%20decorations%2C%20spiritual%20atmosphere%2C%20festive%20ambiance%2C%20cultural%20heritage%2C%20religious%20ceremony%2C%20peaceful%20surroundings&width=400&height=250&seq=12&orientation=landscape"
-                                class="card-img-top" alt="Event Image" style="height: 250px; object-fit: cover;">
-                            <div
-                                class="position-absolute top-0 start-0 m-3 bg-white bg-opacity-90 rounded text-center px-3 py-2">
-                                <div class="small text-muted">May</div>
-                                <div class="fs-3 fw-bold text-black">12</div>
-                                <div class="small text-muted">2025</div>
-                            </div>
-                        </div>
-                        <div class="card-body">
-                            <h5 class="card-title fw-semibold mb-3">Akshaya Tritiya Celebrations</h5>
-                            <div class="d-flex align-items-center text-muted small mb-3">
-                                <i class="bi bi-clock me-2"></i>
-                                <span>9:00 AM - 9:00 PM</span>
-                                <i class="bi bi-geo-alt ms-3 me-2"></i>
-                                <span>Main Temple</span>
-                            </div>
-                            <a href="#" class="text-black text-decoration-none fw-medium">
-                                Learn More <i class="bi bi-arrow-right ms-1"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Event 3 -->
-                <div class="col-12 col-md-6 col-lg-4">
-                    <div class="card border-0 h-100 transition">
-                        <div class="position-relative">
-                            <img src="https://readdy.ai/api/search-image?query=hindu%20temple%20celebration%2C%20traditional%20rituals%2C%20devotees%20gathered%2C%20colorful%20decorations%2C%20spiritual%20atmosphere%2C%20festive%20ambiance%2C%20cultural%20heritage%2C%20religious%20ceremony%2C%20peaceful%20surroundings&width=400&height=250&seq=12&orientation=landscape"
-                                class="card-img-top" alt="Event Image" style="height: 250px; object-fit: cover;">
-                            <div
-                                class="position-absolute top-0 start-0 m-3 bg-white bg-opacity-90 rounded text-center px-3 py-2">
-                                <div class="small text-muted">May</div>
-                                <div class="fs-3 fw-bold text-black">12</div>
-                                <div class="small text-muted">2025</div>
-                            </div>
-                        </div>
-                        <div class="card-body">
-                            <h5 class="card-title fw-semibold mb-3">Akshaya Tritiya Celebrations</h5>
-                            <div class="d-flex align-items-center text-muted small mb-3">
-                                <i class="bi bi-clock me-2"></i>
-                                <span>9:00 AM - 9:00 PM</span>
-                                <i class="bi bi-geo-alt ms-3 me-2"></i>
-                                <span>Main Temple</span>
-                            </div>
-                            <a href="#" class="text-black text-decoration-none fw-medium">
-                                Learn More <i class="bi bi-arrow-right ms-1"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- View All Events Button -->
-            <div class="text-center mt-5">
-                <a href="#" class="border-circle px-4 py-2 rounded-pill text-white">View All Events</a>
-            </div>
-        </div>
-    </section>
-
-    <section class="sri">
-        <div class="py-5 sri-bg">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-lg-8">
-                        <div class="ps-lg-4">
-                            <p class="text-uppercase text-warning fw-semibold mb-2">Education for all rural children</p>
-                            <h4 class="fw-bold mb-4">Sri Vyasaraja Mutt, Sosale</h4>
-                            <p class="blockquote">Śrī Vyāsarāja Maṭha is popularly known as Munitraya (मुनित्रय) Matha
-                                —’the triad of sages’, one of the premier Dvaita Vedanta monasteries (matha) descending
-                                from Hamsanāmaka Bhagavanta, followed by SanakādigaLu, Dūrvāsaru, Jagadguru Śrī
-                                Madhvācārya (incarnation of Shri Vaayu), Śrī Jayatīrtha through Śrī Rajendratīrtha. Śrī
-                                Vyāsarāja Maṭha is the unique pīṭha that has been adorned by Munitrayaru as mentioned in
-                                the following shloka:</p>
-
-                            <p class="blockquote">śrī madhvaḥ kalpavr̥kśaśca jayāryaḥ kāmadhuk smr̥taḥ |
-                                cintāmaṇistu vyāsāryaḥ munitrayamudāhr̥tam ||</p>
-                            <a href="about-us.html" class="btn btn-warning text-white mt-3">Learn More <i
-                                    class="far fa-arrow-right ms-1"></i></a>
-                        </div>
-                    </div>
-                    <!-- Image Column -->
-                    <div class="col-lg-4 mb-4 mb-lg-0">
-                        <div class="position-relative">
-                            <div class="mb-3">
-                                <img src="assets/img/1.jpg" alt="about" class="img-fluid rounded shadow">
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Text Column -->
-
-
-                </div>
-            </div>
-        </div>
-
-    </section>
-
-    <section class="py-5">
-
-
-        <div class="container">
-            <h2>Events & Announcements</h2>
-            <div class="row row-cols-1 row-cols-md-3 g-4" id="event-list">
-
-                <!-- Example Event Item -->
-                <div class="col event-item">
-                    <div class="d-flex">
-                        <div class="event-date me-3">
-                            <div class="day">11</div>
-                            <div class="month">Feb</div>
-                        </div>
-                        <div class="event-content">
-                            <h6>Sri Krishna Devaraya presented the golden pratima of Sri Mahalakshmi to Sri Vyasarajaru
-                            </h6>
-                            <div class="event-meta">Shri Vysaraja Matha, Sosale</div>
-                            <div class="event-meta"><b>Time:</b> 10:00 AM</div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col event-item">
-                    <div class="d-flex">
-                        <div class="event-date me-3">
-                            <div class="day">11</div>
-                            <div class="month">Feb</div>
-                        </div>
-                        <div class="event-content">
-                            <h6>Sri Krishna Devaraya presented the golden pratima of Sri Mahalakshmi to Sri Vyasarajaru
-                            </h6>
-                            <div class="event-meta">Shri Vysaraja Matha, Sosale</div>
-                            <div class="event-meta"><b>Time:</b> 10:00 AM</div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col event-item">
-                    <div class="d-flex">
-                        <div class="event-date me-3">
-                            <div class="day">11</div>
-                            <div class="month">Feb</div>
-                        </div>
-                        <div class="event-content">
-                            <h6>Sri Krishna Devaraya presented the golden pratima of Sri Mahalakshmi to Sri Vyasarajaru
-                            </h6>
-                            <div class="event-meta">Shri Vysaraja Matha, Sosale</div>
-                            <div class="event-meta"><b>Time:</b> 10:00 AM</div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- More events can go here -->
-
-            </div>
-
-            <div class="row row-cols-1 row-cols-md-3 g-4" id="event-list">
-
-                <!-- Example Event Item -->
-                <div class="col event-item">
-                    <div class="d-flex">
-                        <div class="event-date me-3">
-                            <div class="day">11</div>
-                            <div class="month">Feb</div>
-                        </div>
-                        <div class="event-content">
-                            <h6>Sri Krishna Devaraya presented the golden pratima of Sri Mahalakshmi to Sri Vyasarajaru
-                            </h6>
-                            <div class="event-meta">Shri Vysaraja Matha, Sosale</div>
-                            <div class="event-meta"><b>Time:</b> 10:00 AM</div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col event-item">
-                    <div class="d-flex">
-                        <div class="event-date me-3">
-                            <div class="day">11</div>
-                            <div class="month">Feb</div>
-                        </div>
-                        <div class="event-content">
-                            <h6>Sri Krishna Devaraya presented the golden pratima of Sri Mahalakshmi to Sri Vyasarajaru
-                            </h6>
-                            <div class="event-meta">Shri Vysaraja Matha, Sosale</div>
-                            <div class="event-meta"><b>Time:</b> 10:00 AM</div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col event-item">
-                    <div class="d-flex">
-                        <div class="event-date me-3">
-                            <div class="day">11</div>
-                            <div class="month">Feb</div>
-                        </div>
-                        <div class="event-content">
-                            <h6>Sri Krishna Devaraya presented the golden pratima of Sri Mahalakshmi to Sri Vyasarajaru
-                            </h6>
-                            <div class="event-meta">Shri Vysaraja Matha, Sosale</div>
-                            <div class="event-meta"><b>Time:</b> 10:00 AM</div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- More events can go here -->
-
-            </div>
-
-            <div class="row row-cols-1 row-cols-md-3 g-4" id="event-list">
-
-                <!-- Example Event Item -->
-                <div class="col event-item">
-                    <div class="d-flex">
-                        <div class="event-date me-3">
-                            <div class="day">11</div>
-                            <div class="month">Feb</div>
-                        </div>
-                        <div class="event-content">
-                            <h6>Sri Krishna Devaraya presented the golden pratima of Sri Mahalakshmi to Sri Vyasarajaru
-                            </h6>
-                            <div class="event-meta">Shri Vysaraja Matha, Sosale</div>
-                            <div class="event-meta"><b>Time:</b> 10:00 AM</div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col event-item">
-                    <div class="d-flex">
-                        <div class="event-date me-3">
-                            <div class="day">11</div>
-                            <div class="month">Feb</div>
-                        </div>
-                        <div class="event-content">
-                            <h6>Sri Krishna Devaraya presented the golden pratima of Sri Mahalakshmi to Sri Vyasarajaru
-                            </h6>
-                            <div class="event-meta">Shri Vysaraja Matha, Sosale</div>
-                            <div class="event-meta"><b>Time:</b> 10:00 AM</div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col event-item">
-                    <div class="d-flex">
-                        <div class="event-date me-3">
-                            <div class="day">11</div>
-                            <div class="month">Feb</div>
-                        </div>
-                        <div class="event-content">
-                            <h6>Sri Krishna Devaraya presented the golden pratima of Sri Mahalakshmi to Sri Vyasarajaru
-                            </h6>
-                            <div class="event-meta">Shri Vysaraja Matha, Sosale</div>
-                            <div class="event-meta"><b>Time:</b> 10:00 AM</div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- More events can go here -->
-
-            </div>
-    </section>
-
-    <section class="py-5">
-        <div class="container">
-          <h2>Events & Announcements</h2>
-      
-          <div class="row row-cols-1 row-cols-md-3 g-4" id="event-list">
-            <!-- Repeat this .col block multiple times (sample 9 shown, only first 6 will be visible) -->
-            <div class="col event-item"> ... </div>
-            <div class="col event-item"> ... </div>
-            <div class="col event-item"> ... </div>
-            <div class="col event-item"> ... </div>
-            <div class="col event-item"> ... </div>
-            <div class="col event-item"> ... </div>
-            <div class="col event-item d-none"> ... </div> <!-- Hidden -->
-            <div class="col event-item d-none"> ... </div> <!-- Hidden -->
-            <div class="col event-item d-none"> ... </div> <!-- Hidden -->
+  <!--==============================
+    Cart Side bar
+  ============================== -->
+  <div class="sideCart-wrapper offcanvas-wrapper d-none d-lg-block">
+    <div class="sidemenu-content">
+      <button class="closeButton border-theme bg-theme-hover sideMenuCls"><i class="far fa-times"></i></button>
+      <div class="widget widget_shopping_cart">
+        <h3 class="widget_title">Shopping cart</h3>
+        <div class="widget_shopping_cart_content">
+          <ul class="cart_list">
+            <li class="mini_cart_item">
+              <a href="shop.html" class="remove"><i class="fal fa-trash-alt"></i></a> <a href="shop.html"><img
+                  src="assets/img/products/p-1-1.png" alt="Cart Image" />Modern Cow Boy Hat</a>
+              <span class="quantity">
+                1 × <span class="amount"><span>$</span>100.00</span>
+              </span>
+            </li>
+            <li class="mini_cart_item">
+              <a href="shop.html" class="remove"><i class="fal fa-trash-alt"></i></a> <a href="shop.html"><img
+                  src="assets/img/products/p-1-2.png" alt="Cart Image" />Cat Eye Sunglasses</a>
+              <span class="quantity">
+                1 × <span class="amount"><span>$</span>10.00</span>
+              </span>
+            </li>
+          </ul>
+          <div class="total">
+            <strong>Subtotal:</strong> <span class="amount"><span>$</span>110.00</span>
           </div>
-      
-          <div class="text-center mt-4">
-            <button class="btn btn-primary" id="load-more-btn">Load More</button>
+          <div class="buttons">
+            <a href="cart.html" class="vs-btn style4">View cart</a>
+            <a href="checkout.html" class="vs-btn style4">Checkout</a>
           </div>
         </div>
-      </section>
-    <!-- Bootstrap 5 Footer -->
-    <footer class="bg-dark text-white pt-5 pb-4">
-        <div class="container">
-            <div class="row">
+      </div>
+    </div>
+  </div>
 
-                <!-- Brand & Social -->
-                <div class="col-lg-3 col-md-6 mb-4">
-                    <h5 class="mb-3" style="font-family: 'Pacifico', cursive;">Vyasaraja Matha</h5>
-                    <p>Preserving and propagating Vedic wisdom and cultural heritage since 1480.</p>
-                    <div class="d-flex gap-2">
-                        <a href="#" class="btn btn-outline-light btn-sm rounded-circle"><i
-                                class="ri-facebook-fill"></i></a>
-                        <a href="#" class="btn btn-outline-light btn-sm rounded-circle"><i
-                                class="ri-twitter-x-fill"></i></a>
-                        <a href="#" class="btn btn-outline-light btn-sm rounded-circle"><i
-                                class="ri-instagram-fill"></i></a>
-                        <a href="#" class="btn btn-outline-light btn-sm rounded-circle"><i
-                                class="ri-youtube-fill"></i></a>
-                    </div>
-                </div>
+  <!-- ==============================
+    Popup Search Box
+  ============================== -->
+  <div class="popup-search-box d-none d-lg-block  ">
+    <button class="searchClose"><i class="fal fa-times"></i></button>
+    <form action="#">
+      <input type="text" class="border-theme" placeholder="What are you looking for">
+      <button type="submit"><i class="fal fa-search"></i></button>
+    </form>
+  </div>
 
-                <!-- Quick Links -->
-                <div class="col-lg-3 col-md-6 mb-4">
-                    <h5 class="mb-3">Quick Links</h5>
-                    <ul class="list-unstyled">
-                        <li><a href="#" class="text-white-50 text-decoration-none d-block mb-1">About Us</a></li>
-                        <li><a href="#" class="text-white-50 text-decoration-none d-block mb-1">Events</a></li>
-                        <li><a href="#" class="text-white-50 text-decoration-none d-block mb-1">Panchanga</a></li>
-                        <li><a href="#" class="text-white-50 text-decoration-none d-block mb-1">Gallery</a></li>
-                        <li><a href="#" class="text-white-50 text-decoration-none d-block mb-1">E-Seva</a></li>
-                        <li><a href="#" class="text-white-50 text-decoration-none d-block">Contact Us</a></li>
+  <!-- ==============================
+    Header Area
+  ============================== -->
+  <header class="vs-header header-layout3">
+    <div class="container">
+      <div class="header-top">
+        <div class="row justify-content-between align-items-center">
+          <div class="col d-none d-lg-block">
+            <ul class="header-contact">
+              <li><i class="fas fa-envelope"></i> <a href="mailto:info@travolo.com">info@travolo.com</a>
+              </li>
+              <li><i class="fas fa-phone-alt"></i> <a href="tel:02073885619">020 7388 5619</a></li>
+            </ul>
+          </div>
+          <div class="col-auto">
+            <div class="header-social">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-pinterest-p"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+          </div>
+          <div class="col-auto d-flex ">
+            <div class="header-dropdown">
+              <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink1" data-bs-toggle="dropdown"
+                aria-expanded="false">English</a>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink1">
+                <li>
+                  <a href="#">German</a>
+                  <a href="#">French</a>
+                  <a href="#">Italian</a>
+                  <a href="#">Latvian</a>
+                  <a href="#">Spanish</a>
+                  <a href="#">Greek</a>
+                </li>
+              </ul>
+            </div>
+            <a class="user-btn" href="sign-up.html"><i class="far fa-user-circle"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="sticky-wrapper">
+      <div class="sticky-active">
+        <div class="container position-relative z-index-common">
+          <div class="row align-items-center justify-content-between">
+            <div class="col-auto">
+              <div class="vs-logo">
+                <a href="index.html" style="    font-size: 25px;
+                font-weight: bold;
+                color: orange;">
+                  <!-- <img src="assets/img/logo.svg" alt="logo"> -->Vyasaraja Matha
+
+                </a>
+              </div>
+            </div>
+            <div class="col text-end text-xl-center">
+              <nav class="main-menu  menu-style1 d-none d-lg-block">
+                <ul>
+                  <li class="">
+                    <a href="#">Home</a>
+                  </li>
+                  <li class="menu-item-has-children">
+                    <a href="#">About Us</a>
+                    <ul class="sub-menu">
+                      <li><a href="destinations.html">Destinations</a></li>
+                      <li><a href="destination-details.html">Destinations Details</a></li>
                     </ul>
-                </div>
-
-                <!-- Contact Info -->
-                <div class="col-lg-3 col-md-6 mb-4">
-                    <h5 class="mb-3">Contact Information</h5>
-                    <ul class="list-unstyled text-white-50">
-                        <li class="mb-2"><i class="ri-map-pin-line me-2"></i>123 Temple Street, Bangalore, India -
-                            560001</li>
-                        <li class="mb-2"><i class="ri-phone-line me-2"></i>+91 9876543210</li>
-                        <li><i class="ri-mail-line me-2"></i>info@vyasarajamatha.org</li>
+                  </li>
+                  <li class="mega-menu-wrap">
+                    <a href="#">Prandevaru</a>
+                  </li>
+                  <li class="">
+                    <a href="#">Panchanga</a>
+                  </li>
+                  <li class="">
+                    <a href="#">Gallery</a>
+                   
+                  </li>
+                  <li class="menu-item-has-children">
+                    <a href="#">Archives</a>
+                    <ul class="sub-menu">
+                      <li><a href="#">Download</a></li>
+                      <li><a href="#">Video</a></li>
+                      <li><a href="#">Articles</a></li>
+                      <li><a href="#">Audio</a></li>
                     </ul>
-                </div>
-
-                <!-- App Download -->
-                <div class="col-lg-3 col-md-6 mb-4">
-                    <h5 class="mb-3">Download Our App</h5>
-                    <p class="text-white-50">Get access to exclusive content, event updates, and more.</p>
-                    <a href="#" class="btn btn-light d-flex align-items-center mb-2">
-                        <i class="ri-apple-fill fs-4 me-2"></i>
-                        <div>
-                            <small>Download on the</small><br><strong>App Store</strong>
-                        </div>
-                    </a>
-                    <a href="#" class="btn btn-light d-flex align-items-center">
-                        <i class="ri-google-play-fill fs-4 me-2"></i>
-                        <div>
-                            <small>Get it on</small><br><strong>Google Play</strong>
-                        </div>
-                    </a>
-                </div>
-
+                  </li>
+                  <li>
+                    <a href="contact.html">Contact</a>
+                  </li>
+                </ul>
+              </nav>
+              <button class="vs-menu-toggle d-inline-block d-lg-none"><i class="fal fa-bars"></i></button>
             </div>
-
-            <!-- Bottom -->
-            <div
-                class="border-top border-secondary pt-3 mt-4 d-flex flex-column flex-md-row justify-content-between align-items-center">
-                <p class="mb-2 mb-md-0 text-white-50">&copy; 2025 Vyasaraja Matha. All rights reserved.</p>
-                <div class="d-flex gap-3">
-                    <a href="#" class="text-white-50 text-decoration-none">Privacy Policy</a>
-                    <a href="#" class="text-white-50 text-decoration-none">Terms & Conditions</a>
-                    <a href="#" class="text-white-50 text-decoration-none">Sitemap</a>
-                </div>
+            <div class="col-auto d-none d-xl-block">
+              <!-- <div class="header-btns"> -->
+                <!-- <button class="searchBoxTggler"><i class="fal fa-search"></i></button>
+                <button class="sideCartToggler"><i class="fal fa-shopping-bag"></i><span
+                    class="button-badge">2</span></button> -->
+                <!-- <button class="sideMenuToggler"><i class="fal fa-bars"></i></button> -->
+             <a href="#" class="vs-btn style4">Donation</a>
+              <!-- </div> -->
             </div>
+          </div>
         </div>
-    </footer>
+      </div>
+    </div>
+  </header>
 
-    <!-- Scroll to Top Button -->
-    <button type="button" id="scrollTopBtn" class="btn btn-primary position-fixed bottom-0 end-0 m-4 d-none">
-        <i class="ri-arrow-up-line fs-5"></i>
-    </button>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="script.js"></script>
-    <script>
-        const scrollTopBtn = document.getElementById("scrollTopBtn");
-
-        window.addEventListener("scroll", () => {
-            if (window.scrollY > 300) {
-                scrollTopBtn.classList.remove("d-none");
-            } else {
-                scrollTopBtn.classList.add("d-none");
-            }
-        });
-
-        scrollTopBtn.addEventListener("click", () => {
-            window.scrollTo({ top: 0, behavior: "smooth" });
-        });
-    </script>
-    <script>
-        function loadMore() {
-            const container = document.getElementById("event-list");
-            const newEvent = document.createElement("div");
-            newEvent.className = "col event-item";
-            newEvent.innerHTML = `
-        <div class="d-flex">
-          <div class="event-date me-3">
-            <div class="day">25</div>
-            <div class="month">May</div>
+  <!-- ==============================
+    Hero Area Start 
+  ============================== -->
+  <section class="hero-layout2">
+    <div>
+      <div class="vs-carousel hero-slider3" data-slide-show="1" data-fade="true">
+        <div class="hero-slide hero-mask" data-bg-src="assets/img/banner/5f278c948709228d06b7afb6fb38827f.jpg">
+          <div class="container">
+            <div class="row align-items-center justify-content-between">
+              <div class="col-lg-8">
+                <div class="hero-content">
+                  <!-- <span class="hero-subtitle">Let's Go Now</span> -->
+                  <h1 class="hero-title">Preserving Ancient Wisdom</h1>
+                  <p class="hero-text">Vyasaraja Matha: A sanctuary of spiritual knowledge and cultural heritage
+                    since 1480
+                  </p>
+                  <a href="about.html" class="vs-btn style4">Read More</a>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="hero-img">
+                  <!-- <img class="shape-mokup d-none d-lg-block" src="assets/img/banner/brush.png" alt="brush"> -->
+                  <!-- <img class="img1" src="assets/img/banner/hero-bag.png" alt="hero"> -->
+                </div>
+              </div>
+            </div>
           </div>
-          <div class="event-content">
-            <h6>Sudha Mangala <span class="dot"></span></h6>
-            <div class="event-meta">Palimaru Matha, Bengaluru</div>
-            <div class="event-meta">Time: 6:00 PM</div>
+        </div>
+        <div class="hero-slide hero-mask" data-bg-src="assets/img/banner/5f278c948709228d06b7afb6fb38827f.jpg">
+          <div class="container">
+            <div class="row align-items-center justify-content-between">
+              <div class="col-lg-8">
+                <div class="hero-content">
+                  <!-- <span class="hero-subtitle">Let's Go Now</span> -->
+                  <h1 class="hero-title">Preserving Ancient Wisdom</h1>
+                  <p class="hero-text">Vyasaraja Matha: A sanctuary of spiritual knowledge and cultural heritage
+                    since 1480
+                  </p>
+                  <a href="about.html" class="vs-btn style4">Read More</a>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="hero-img">
+                  <!-- <img class="shape-mokup d-none d-lg-block" src="assets/img/banner/brush.png" alt="brush"> -->
+                  <!-- <img class="img1" src="assets/img/banner/hero-bag.png" alt="hero"> -->
+                </div>
+              </div>
+            </div>
           </div>
-        </div>`;
-            container.appendChild(newEvent);
-        }
-    </script>
+        </div>
+        <div class="hero-slide hero-mask" data-bg-src="assets/img/banner/5f278c948709228d06b7afb6fb38827f.jpg">
+          <div class="container">
+            <div class="row align-items-center justify-content-between">
+              <div class="col-lg-8">
+                <div class="hero-content">
+                  <!-- <span class="hero-subtitle">Let's Go Now</span> -->
+                  <h1 class="hero-title">Preserving Ancient Wisdom</h1>
+                  <p class="hero-text">Vyasaraja Matha: A sanctuary of spiritual knowledge and cultural heritage
+                    since 1480
+                  </p>
+                  <a href="about.html" class="vs-btn style4">Read More</a>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="hero-img">
+                  <!-- <img class="shape-mokup d-none d-lg-block" src="assets/img/banner/brush.png" alt="brush"> -->
+                  <!-- <img class="img1" src="assets/img/banner/hero-bag.png" alt="hero"> -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <button class="icon-btn prev-btn" data-slick-prev=".hero-slider3"><i class="fas fa-chevron-up"></i></button>
+        <button class="icon-btn next-btn" data-slick-next=".hero-slider3"><i class="fas fa-chevron-down"></i></button>
+      </div>
+    </div>
+    <!-- <div class="hero-bottom">
+      <div class="container">
+        <form class="hero-form">
+          <div class="row">
+            <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+              <div class="form-group ">
+                <i class="fas fa-compass"></i>
+                <input type="text" placeholder="Where To?" />
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+              <div class="form-group">
+                <i class="fas fa-calendar-alt"></i>
+                <select class="form-select" name="name">
+                  <option value="" selected="selected" disabled="disabled" hidden="">Select Month</option>
+                  <option value="">January</option>
+                  <option value="">February</option>
+                  <option value="">March</option>
+                  <option value="">April</option>
+                </select>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+              <div class="form-group">
+                <i class="fas fa-thumbtack"></i>
+                <select class="form-select" name="name">
+                  <option value="" selected="selected" disabled="disabled" hidden="">Select Type</option>
+                  <option value="">Adventure </option>
+                  <option value="">Combining</option>
+                  <option value="">Sporting</option>
+                  <option value="">Domestic</option>
+                </select>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+              <button class="vs-btn style4">Find Now</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div> -->
+  </section>
+  <!-- ============================
+    Hero Area End 
+  ==============================-->
+
+  <!-- ==============================
+    About Area Start 
+  ============================== -->
+  <section class="space shape-mockup-wrap">
+    <!-- <div class="shape-mockup d-none d-xl-block ripple-animation z-index-negative" data-top="10%" data-left="5%">
+      <img src="assets/img/shape/Ballon.png" alt="svg">
+    </div> -->
+    <div class="shape-mockup d-none d-xl-block jump z-index-negative" data-top="10%" data-right="10%">
+      <img src="assets/img/shape/up-arrow.png" alt="svg">
+    </div>
+    <!-- <div class="shape-mockup d-none d-xl-block jump z-index-negative" data-bottom="0%" data-left="0%">
+      <img class="plane2" src="assets/img/shape/plane2.png" alt="svg">
+    </div> -->
+    <div class="shape-mockup d-none d-xl-block jump z-index-negative" data-bottom="15%" data-right="5%">
+      <img src="assets/img/shape/Lines.png" alt="svg">
+    </div>
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-xl-5">
+          <div class="about-content">
+            <div class="title-area">
+              <!-- <span class="sec-subtitle">We are Travolo</span> -->
+              <h2 class="sec-title h1">Sri Vyasaraja Mutt, Sosale</h2>
+              <p class="sec-text">Śrī Vyāsarāja Maṭha is popularly known as Munitraya (मुनित्रय) Matha —’the triad of
+                sages’, one of the premier Dvaita Vedanta monasteries (matha) descending from Hamsanāmaka Bhagavanta,
+                followed by SanakādigaLu, Dūrvāsaru, Jagadguru Śrī Madhvācārya (incarnation of Shri Vaayu), Śrī
+                Jayatīrtha through Śrī Rajendratīrtha. Śrī Vyāsarāja Maṭha is the unique pīṭha that has been adorned by
+                Munitrayaru as mentioned in the following shloka:</p>
+              <p>śrī madhvaḥ kalpavr̥kśaśca jayāryaḥ kāmadhuk smr̥taḥ |
+                cintāmaṇistu vyāsāryaḥ munitrayamudāhr̥tam ||</p>
+              <p>
+                Śrī Vyāsarāja Maṭha is uniquely identified with its contribution towards various scholarly compositions
+                on Dvaita philosophy based on Vedic science as well as service to the nation and society.
+              </p>
+            </div>
+            <!-- <ul class="about-list1">
+              <li>Mei an periculaeuripidis.</li>
+              <li>Lorem ipsum dolor sit am.</li>
+              <li>Blienum nhaedrum tortos.</li>
+              <li>Dlienum phaed is in meis.</li>
+              <li>torquatos nec euls vis.</li>
+              <li>peric uripidis, fincartem.</li>
+              <li>pericu laeuri pidis Mei sm.</li>
+            </ul> -->
+            <a href="about.html" class="vs-btn style4">More about Śrī Vyāsarāja Maṭha</a>
+          </div>
+        </div>
+        <div class="col-xl-6">
+          <div class="img-box3">
+            <img class="img1" src="assets/img/about/about-1-1.jpg" alt="about image">
+            <div class="bottom-img">
+              <img class="img2" src="assets/img/about/about-1-2.jpg" alt="about image">
+              <img class="img3" src="assets/img/about/about-1-3.jpg" alt="about image">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ==============================
+    About Area End 
+  ============================== -->
+
+  <section class="space bg-light shape-mockup-wrap" data-bg-src="assets/img/shape/Bg.png">
+    <div class="shape-mockup d-none d-xl-block jump z-index-negative" data-bottom="20%" data-left="5%">
+      <img src="assets/img/shape/Dot.png" alt="Dots">
+    </div>
+    <div class="shape-mockup d-none d-xl-block spin z-index-negative" data-bottom="-5%" data-right="-5%">
+      <img src="assets/img/shape/circle1.png" alt="Circle">
+    </div>
+    <!-- <div class="shape-mockup d-none d-xl-block ripple-animation z-index-negative" data-top="10%" data-left="10%">
+      <img src="assets/img/shape/Plane.png" alt="plane">
+    </div> -->
+    <div class="container ">
+      <div class="row justify-content-center text-center">
+        <div class="col-xl-10 col-lg-8 wow fadeInUp" data-wow-delay="0.3s">
+          <div class="title-area">
+            <h2 class="sec-title h1">About Śrī Vyāsa Tīrtharu</h2>
+            <p class="sec-text">Śrī Vyāsatīrtha, the scholar of Tattvavāda is held in high esteem only next to Śrī
+              Jayatīrtha. His fundamental work has been to write detailed commentaries on the works of Śrīmad
+              Anandatirtha and Śrī Jayatīrtha, and to show Tattvavāda as being placed on a firm logical footing. His
+              work is considered to be of the highest significance, particularly because it is accepted even by his
+              opponents that his understanding of their schools is second to none. Śrī Vyāsatīrtha also keeps a tempo
+              that is hard for the less skilled to even conceive of, let alone match. His logic is exceptionally hard to
+              beat, because of his uncanny knack of knowing exactly what the opponent is going to say, and using this
+              information to lead the opponent into traps of logic that are many steps deep, and impossible to work
+              through or around. One feels that while one gropes in the dark and tries to guess where one is and
+              struggles to find one’ s way.</p>
+          </div>
+          <div class="text-center pt-lg-2">
+            <a href="tours.html" class="vs-btn">View More</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="space position-relative" data-bg-src="assets/img/bg/offer-bg.jpg">
+    <div class="container">
+      <div class="row align-items-center justify-content-between">
+        <div class="col-xxl-5 col-xl-5 col-lg-6 col-md-6">
+          <div class="title-area white-title mb-md-0">
+            <h2 class="sec-title h1">Śrī Vidyāśrīśa Tīrtha - The Current Pīṭhādhipati</h2>
+            <p class="sec-text">In his Purvashrama, Śrī Vidyāśrīśa Tīrtha was known as Prof. D. Prahlādachar and was
+              born in 1940, in Bellary, Karnataka. His early education was in the traditional Gurukula system with the
+              renowned scholars H H Śrī Vidyāmānya Tīrtha Swamiji of Bhandārakeri Matha and Śrī Viśveśa Tīrtha Swamiji
+              of Pējawara Matha, Udupi. He has specialized in Navya-nyāya, Sāhitya and Dvaita Vedānta.</p>
+            <a href="contact.html" class="vs-btn style2">View More</a>
+          </div>
+        </div>
+        <div class="col-xxl-5 col-xl-5 col-lg-6 col-md-6">
+          <div class="img-box1">
+            <img class="img-1-1" src="assets/img/new/Mask-Group-34.png" alt="Offer image">
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-5" style="background-color: #FBE2CC;">
+    <div class="container">
+      <h2 class="text-center fw-bold mb-5">Swami Tour Schedule</h2>
+      <div class="position-relative mx-auto" style="max-width: 900px;">
+        <!-- Timeline vertical line -->
+        <div
+          class="position-absolute top-0 bottom-0 start-50 translate-middle-x border-start border-line d-none d-md-block"
+          style="width: 2px; opacity: 0.2;"></div>
+
+        <!-- Entry 1 -->
+        <div class="position-relative mb-5">
+          <div
+            class="position-absolute start-50 translate-middle border border-white border-circle rounded-circle d-none d-md-block"
+            style="width: 32px; height: 32px; z-index: 1;"></div>
+          <div class="row align-items-center">
+            <div class="col-md-6 text-md-end text-center pe-md-5 mb-3 mb-md-0">
+              <a href="#" class="btn border-circle rounded-pill px-4 py-2 text-white">May 10, 2025</a>
+            </div>
+            <div class="col-md-6 ps-md-5">
+              <div class="bg-white rounded shadow p-4 text-md-start text-center">
+                <h4 class="fw-semibold mb-3">Bangalore - Sri Krishna Temple</h4>
+                <p class="text-muted mb-3">Special discourse on Bhagavad Gita Chapter 12: Bhakti Yoga -
+                  The Path of Devotion</p>
+                <div class="d-flex align-items-center text-muted justify-content-md-start justify-content-center">
+                  <i class="bi bi-geo-alt text-black me-2"></i>
+                  <span>Sri Krishna Temple, Bangalore</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Entry 2 -->
+        <div class="position-relative mb-5">
+          <div
+            class="position-absolute start-50 translate-middle border border-white border-circle rounded-circle d-none d-md-block"
+            style="width: 32px; height: 32px; z-index: 1;"></div>
+          <div class="row align-items-center">
+            <div class="col-md-6 order-md-2 text-md-start text-center ps-md-5 mb-3 mb-md-0">
+              <a href="#" class="btn border-circle rounded-pill px-4 py-2 text-white">May 15, 2025</a>
+            </div>
+            <div class="col-md-6 order-md-1 text-md-end text-center pe-md-5">
+              <div class="bg-white rounded shadow p-4 text-md-end text-center">
+                <h4 class="fw-semibold mb-3">Mysore - Parakala Matha</h4>
+                <p class="text-muted mb-3">Vedanta discourse series on Upanishads, followed by
+                  traditional cultural performances</p>
+                <div class="d-flex align-items-center text-muted justify-content-md-end justify-content-center">
+                  <i class="bi bi-geo-alt text-black me-2"></i>
+                  <span>Parakala Matha, Mysore</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Entry 3 -->
+        <div class="position-relative mb-5">
+          <div
+            class="position-absolute start-50 translate-middle border border-white border-circle rounded-circle d-none d-md-block"
+            style="width: 32px; height: 32px; z-index: 1;"></div>
+          <div class="row align-items-center">
+            <div class="col-md-6 text-md-end text-center pe-md-5 mb-3 mb-md-0">
+              <a href="#" class="btn border-circle rounded-pill px-4 py-2 text-white">May 22, 2025</a>
+            </div>
+            <div class="col-md-6 ps-md-5">
+              <div class="bg-white rounded shadow p-4 text-md-start text-center">
+                <h4 class="fw-semibold mb-3">Udupi - Krishna Matha</h4>
+                <p class="text-muted mb-3">Special discourse on Madhva philosophy and traditional temple
+                  rituals with blessings</p>
+                <div class="d-flex align-items-center text-muted justify-content-md-start justify-content-center">
+                  <i class="bi bi-geo-alt text-black me-2"></i>
+                  <span>Krishna Matha, Udupi</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- View More Button -->
+        <div class="text-center mt-5">
+          <a href="#" class=" border-circle text-white px-4 py-3 rounded-pill">View Complete Schedule</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-5">
+
+
+    <div class="container">
+        <h2>Events & Announcements</h2>
+        <div class="row row-cols-1 row-cols-md-3 g-4" id="event-list">
+
+            <!-- Example Event Item -->
+            <div class="col event-item">
+                <div class="d-flex">
+                    <div class="event-date me-3">
+                        <div class="day">11</div>
+                        <div class="month">Feb</div>
+                    </div>
+                    <div class="event-content">
+                        <h6>Sri Krishna Devaraya presented the golden pratima of Sri Mahalakshmi to Sri Vyasarajaru
+                        </h6>
+                        <div class="event-meta">Shri Vysaraja Matha, Sosale</div>
+                        <div class="event-meta"><b>Time:</b> 10:00 AM</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col event-item">
+                <div class="d-flex">
+                    <div class="event-date me-3">
+                        <div class="day">11</div>
+                        <div class="month">Feb</div>
+                    </div>
+                    <div class="event-content">
+                        <h6>Sri Krishna Devaraya presented the golden pratima of Sri Mahalakshmi to Sri Vyasarajaru
+                        </h6>
+                        <div class="event-meta">Shri Vysaraja Matha, Sosale</div>
+                        <div class="event-meta"><b>Time:</b> 10:00 AM</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col event-item">
+                <div class="d-flex">
+                    <div class="event-date me-3">
+                        <div class="day">11</div>
+                        <div class="month">Feb</div>
+                    </div>
+                    <div class="event-content">
+                        <h6>Sri Krishna Devaraya presented the golden pratima of Sri Mahalakshmi to Sri Vyasarajaru
+                        </h6>
+                        <div class="event-meta">Shri Vysaraja Matha, Sosale</div>
+                        <div class="event-meta"><b>Time:</b> 10:00 AM</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- More events can go here -->
+
+        </div>
+
+        <div class="row row-cols-1 row-cols-md-3 g-4" id="event-list">
+
+            <!-- Example Event Item -->
+            <div class="col event-item">
+                <div class="d-flex">
+                    <div class="event-date me-3">
+                        <div class="day">11</div>
+                        <div class="month">Feb</div>
+                    </div>
+                    <div class="event-content">
+                        <h6>Sri Krishna Devaraya presented the golden pratima of Sri Mahalakshmi to Sri Vyasarajaru
+                        </h6>
+                        <div class="event-meta">Shri Vysaraja Matha, Sosale</div>
+                        <div class="event-meta"><b>Time:</b> 10:00 AM</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col event-item">
+                <div class="d-flex">
+                    <div class="event-date me-3">
+                        <div class="day">11</div>
+                        <div class="month">Feb</div>
+                    </div>
+                    <div class="event-content">
+                        <h6>Sri Krishna Devaraya presented the golden pratima of Sri Mahalakshmi to Sri Vyasarajaru
+                        </h6>
+                        <div class="event-meta">Shri Vysaraja Matha, Sosale</div>
+                        <div class="event-meta"><b>Time:</b> 10:00 AM</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col event-item">
+                <div class="d-flex">
+                    <div class="event-date me-3">
+                        <div class="day">11</div>
+                        <div class="month">Feb</div>
+                    </div>
+                    <div class="event-content">
+                        <h6>Sri Krishna Devaraya presented the golden pratima of Sri Mahalakshmi to Sri Vyasarajaru
+                        </h6>
+                        <div class="event-meta">Shri Vysaraja Matha, Sosale</div>
+                        <div class="event-meta"><b>Time:</b> 10:00 AM</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- More events can go here -->
+
+        </div>
+
+        <div class="row row-cols-1 row-cols-md-3 g-4" id="event-list">
+
+            <!-- Example Event Item -->
+            <div class="col event-item">
+                <div class="d-flex">
+                    <div class="event-date me-3">
+                        <div class="day">11</div>
+                        <div class="month">Feb</div>
+                    </div>
+                    <div class="event-content">
+                        <h6>Sri Krishna Devaraya presented the golden pratima of Sri Mahalakshmi to Sri Vyasarajaru
+                        </h6>
+                        <div class="event-meta">Shri Vysaraja Matha, Sosale</div>
+                        <div class="event-meta"><b>Time:</b> 10:00 AM</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col event-item">
+                <div class="d-flex">
+                    <div class="event-date me-3">
+                        <div class="day">11</div>
+                        <div class="month">Feb</div>
+                    </div>
+                    <div class="event-content">
+                        <h6>Sri Krishna Devaraya presented the golden pratima of Sri Mahalakshmi to Sri Vyasarajaru
+                        </h6>
+                        <div class="event-meta">Shri Vysaraja Matha, Sosale</div>
+                        <div class="event-meta"><b>Time:</b> 10:00 AM</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col event-item">
+                <div class="d-flex">
+                    <div class="event-date me-3">
+                        <div class="day">11</div>
+                        <div class="month">Feb</div>
+                    </div>
+                    <div class="event-content">
+                        <h6>Sri Krishna Devaraya presented the golden pratima of Sri Mahalakshmi to Sri Vyasarajaru
+                        </h6>
+                        <div class="event-meta">Shri Vysaraja Matha, Sosale</div>
+                        <div class="event-meta"><b>Time:</b> 10:00 AM</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- More events can go here -->
+
+        </div>
+</section>
+
+  <section class="py-5 bg-white event">
+    <div class="container">
+      <h2 class="text-center fw-bold mb-5">Upcoming Events</h2>
+      <div class="row g-4 justify-content-center">
+        <!-- Event 1 -->
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card border-0 h-100 transition">
+            <div class="position-relative">
+              <img
+                src="https://readdy.ai/api/search-image?query=hindu%20temple%20celebration%2C%20traditional%20rituals%2C%20devotees%20gathered%2C%20colorful%20decorations%2C%20spiritual%20atmosphere%2C%20festive%20ambiance%2C%20cultural%20heritage%2C%20religious%20ceremony%2C%20peaceful%20surroundings&width=400&height=250&seq=12&orientation=landscape"
+                class="card-img-top" alt="Event Image" style="height: 250px; object-fit: cover;">
+              <div class="position-absolute top-0 start-0 m-3 bg-white bg-opacity-90 rounded text-center px-3 py-2">
+                <div class="small text-muted">May</div>
+                <div class="fs-3 fw-bold text-black">12</div>
+                <div class="small text-muted">2025</div>
+              </div>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title fw-semibold mb-3">Akshaya Tritiya Celebrations</h5>
+              <div class="d-flex align-items-center text-muted small mb-3">
+                <i class="bi bi-clock me-2"></i>
+                <span>9:00 AM - 9:00 PM</span>
+                <i class="bi bi-geo-alt ms-3 me-2"></i>
+                <span>Main Temple</span>
+              </div>
+              <a href="#" class="text-black text-decoration-none fw-medium">
+                Learn More <i class="bi bi-arrow-right ms-1"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Event 2 -->
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card border-0 h-100 transition">
+            <div class="position-relative">
+              <img
+                src="https://readdy.ai/api/search-image?query=hindu%20temple%20celebration%2C%20traditional%20rituals%2C%20devotees%20gathered%2C%20colorful%20decorations%2C%20spiritual%20atmosphere%2C%20festive%20ambiance%2C%20cultural%20heritage%2C%20religious%20ceremony%2C%20peaceful%20surroundings&width=400&height=250&seq=12&orientation=landscape"
+                class="card-img-top" alt="Event Image" style="height: 250px; object-fit: cover;">
+              <div class="position-absolute top-0 start-0 m-3 bg-white bg-opacity-90 rounded text-center px-3 py-2">
+                <div class="small text-muted">May</div>
+                <div class="fs-3 fw-bold text-black">12</div>
+                <div class="small text-muted">2025</div>
+              </div>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title fw-semibold mb-3">Akshaya Tritiya Celebrations</h5>
+              <div class="d-flex align-items-center text-muted small mb-3">
+                <i class="bi bi-clock me-2"></i>
+                <span>9:00 AM - 9:00 PM</span>
+                <i class="bi bi-geo-alt ms-3 me-2"></i>
+                <span>Main Temple</span>
+              </div>
+              <a href="#" class="text-black text-decoration-none fw-medium">
+                Learn More <i class="bi bi-arrow-right ms-1"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Event 3 -->
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card border-0 h-100 transition">
+            <div class="position-relative">
+              <img
+                src="https://readdy.ai/api/search-image?query=hindu%20temple%20celebration%2C%20traditional%20rituals%2C%20devotees%20gathered%2C%20colorful%20decorations%2C%20spiritual%20atmosphere%2C%20festive%20ambiance%2C%20cultural%20heritage%2C%20religious%20ceremony%2C%20peaceful%20surroundings&width=400&height=250&seq=12&orientation=landscape"
+                class="card-img-top" alt="Event Image" style="height: 250px; object-fit: cover;">
+              <div class="position-absolute top-0 start-0 m-3 bg-white bg-opacity-90 rounded text-center px-3 py-2">
+                <div class="small text-muted">May</div>
+                <div class="fs-3 fw-bold text-black">12</div>
+                <div class="small text-muted">2025</div>
+              </div>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title fw-semibold mb-3">Akshaya Tritiya Celebrations</h5>
+              <div class="d-flex align-items-center text-muted small mb-3">
+                <i class="bi bi-clock me-2"></i>
+                <span>9:00 AM - 9:00 PM</span>
+                <i class="bi bi-geo-alt ms-3 me-2"></i>
+                <span>Main Temple</span>
+              </div>
+              <a href="#" class="text-black text-decoration-none fw-medium">
+                Learn More <i class="bi bi-arrow-right ms-1"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- View All Events Button -->
+      <div class="text-center mt-5">
+        <a href="#" class="border-circle px-4 py-2 rounded-pill text-white">View All Events</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="space bg-light shape-mockup-wrap" data-bg-src="assets/img/shape/Bg.png">
+    <div class="shape-mockup d-none d-xl-block jump z-index-negative" data-bottom="20%" data-left="5%">
+      <img src="assets/img/shape/Dot.png" alt="Dots">
+    </div>
+    <div class="shape-mockup d-none d-xl-block spin z-index-negative" data-bottom="-5%" data-right="-5%">
+      <img src="assets/img/shape/circle1.png" alt="Circle">
+    </div>
+    <!-- <div class="shape-mockup d-none d-xl-block ripple-animation z-index-negative" data-top="10%" data-left="10%">
+    <img src="assets/img/shape/Plane.png" alt="plane">
+  </div> -->
+    <div class="container ">
+      <div class="row justify-content-center text-center">
+
+        <div class="row">
+          <div class="col-xl-6 col-lg-8 wow fadeInUp" data-wow-delay="0.3s">
+            <div class="title-area">
+              <h2 class="sec-title h1">Current Pithadhipati</h2>
+              <p class="sec-text">Śrī Vyāsatīrtha, the scholar of Tattvavāda is held in high esteem only next to Śrī
+                Jayatīrtha. His fundamental work has been to write detailed commentaries on the works of Śrīmad
+                Anandatirtha and Śrī Jayatīrtha, and to show Tattvavāda as being placed on a firm logical footing. His
+                work is considered to be of the highest significance, particularly because it is accepted even by his
+                opponents that his understanding of their schools is second to none. Śrī Vyāsatīrtha also keeps a tempo
+                that is hard for the less skilled to even conceive of, let alone match. His logic is exceptionally hard
+                to
+                beat, because of his uncanny knack of knowing exactly what the opponent is going to say, and using this
+                information to lead the opponent into traps of logic that are many steps deep, and impossible to work
+                through or around. One feels that while one gropes in the dark and tries to guess where one is and
+                struggles to find one’ s way.</p>
+            </div>
+            <div class="text-center pt-lg-2">
+              <a href="tours.html" class="vs-btn">View More</a>
+            </div>
+          </div>
+          <div class="col-xl-6 col-lg-4 wow fadeInUp">
+            <img class="img-1-1" src="assets/img/new/Mask-Group-34.png" alt="Offer image">
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+
+  <section class="space bg-light shape-mockup-wrap" data-bg-src="assets/img/shape/Bg.png">
+    <div class="shape-mockup d-none d-xl-block jump z-index-negative" data-bottom="20%" data-left="5%">
+      <img src="assets/img/shape/Dot.png" alt="Dots">
+    </div>
+    <div class="shape-mockup d-none d-xl-block spin z-index-negative" data-bottom="-5%" data-right="-5%">
+      <img src="assets/img/shape/circle1.png" alt="Circle">
+    </div>
+    <!-- <div class="shape-mockup d-none d-xl-block ripple-animation z-index-negative" data-top="10%" data-left="10%">
+      <img src="assets/img/shape/Plane.png" alt="plane">
+    </div> -->
+    <div class="container ">
+      <div class="row justify-content-center text-center">
+        <div class="col-xl-6 col-lg-8 wow fadeInUp" data-wow-delay="0.3s">
+          <div class="title-area">
+            <h2 class="sec-title h1">Highlighted Videos</h2>
+          </div>
+        </div>
+      </div>
+      <div class="row vs-carousel" data-slide-show="4" data-arrows="false" data-lg-slide-show="3" data-md-slide-show="2"
+        data-sm-slide-show="1">
+        <div class="col-xl-3 col-lg-6 col-sm-6">
+          <div class="package-style1">
+            <div class="package-img">
+              <a href="tour-booking.html"> <iframe src="https://www.youtube.com/embed/VIDEO_ID"
+                  title="YouTube video player" frameborder="0" allowfullscreen></iframe></a>
+            </div>
+            <div class="package-content">
+              <div class="package-footer">
+                <p>
+                  Sosale Sambhrama
+                </p>
+                <p>Acknowledgement: Vyasaraja Matha Youtube Channel</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-3 col-lg-6 col-sm-6">
+          <div class="package-style1">
+            <div class="package-img">
+              <a href="tour-booking.html"> <iframe src="https://www.youtube.com/embed/VIDEO_ID"
+                  title="YouTube video player" frameborder="0" allowfullscreen></iframe></a>
+            </div>
+            <div class="package-content">
+              <div class="package-footer">
+                <p>
+                  Sosale Sambhrama
+                </p>
+                <p>Acknowledgement: Vyasaraja Matha Youtube Channel</p>
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-3 col-lg-6 col-sm-6">
+          <div class="package-style1">
+            <div class="package-img">
+              <a href="tour-booking.html"> <iframe src="https://www.youtube.com/embed/VIDEO_ID"
+                  title="YouTube video player" frameborder="0" allowfullscreen></iframe></a>
+            </div>
+            <div class="package-content">
+              <div class="package-footer">
+                <p>
+                  Sosale Sambhrama
+                </p>
+                <p>Acknowledgement: Vyasaraja Matha Youtube Channel</p>
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-3 col-lg-6 col-sm-6">
+          <div class="package-style1">
+            <div class="package-img">
+              <a href="tour-booking.html"> <iframe src="https://www.youtube.com/embed/VIDEO_ID"
+                  title="YouTube video player" frameborder="0" allowfullscreen></iframe></a>
+            </div>
+            <div class="package-content">
+              <div class="package-footer">
+                <p>
+                  Sosale Sambhrama
+                </p>
+                <p>Acknowledgement: Vyasaraja Matha Youtube Channel</p>
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-3 col-lg-6 col-sm-6">
+          <div class="package-style1">
+            <div class="package-img">
+              <a href="tour-booking.html"> <iframe src="https://www.youtube.com/embed/VIDEO_ID"
+                  title="YouTube video player" frameborder="0" allowfullscreen></iframe></a>
+            </div>
+            <div class="package-content">
+              <div class="package-footer">
+                <p>
+                  Sosale Sambhrama
+                </p>
+                <p>Acknowledgement: Vyasaraja Matha Youtube Channel</p>
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-3 col-lg-6 col-sm-6">
+          <div class="package-style1">
+            <div class="package-img">
+              <a href="tour-booking.html"> <iframe src="https://www.youtube.com/embed/VIDEO_ID"
+                  title="YouTube video player" frameborder="0" allowfullscreen></iframe></a>
+            </div>
+            <div class="package-content">
+              <div class="package-footer">
+                <p>
+                  Sosale Sambhrama
+                </p>
+                <p>Acknowledgement: Vyasaraja Matha Youtube Channel</p>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="text-center pt-lg-2">
+        <a href="#" class="vs-btn">View More</a>
+      </div>
+    </div>
+  </section>
+
+
+
+  
+
+ 
+
+  
+  <!--==============================
+     Blogs Area Start 
+  ==============================-->
+  <section class="space space-extra-bottom blog-wrapper">
+    <div class="container">
+      <div class="row justify-content-center text-center">
+        <div class="col-xl-6 col-lg-8 wow fadeInUp" data-wow-delay="0.3s">
+          <div class="title-area">
+            <span class="sec-subtitle">Blog & News</span>
+            <h2 class="sec-title h1">Our Latest Blog</h2>
+            <p class="sec-text">Curabitur aliquet quam id dui posuere blandit. Vivamus magna justo, lacinia eget
+              consectetur sed,
+              convgallis at tellus. Vestibulum ac diam sit.</p>
+          </div>
+        </div>
+      </div>
+      <div class="row vs-carousel" data-slide-show="3" data-arrows="false" data-lg-slide-show="2" data-md-slide-show="2"
+        data-sm-slide-show="1">
+        <div class="col-xl-4">
+          <div class="vs-blog blog-style3">
+            <div class="blog-img">
+              <a href="blog-details.html"><img src="assets/img/blog/blog-h-1-1.jpg" alt="blog image"></a>
+            </div>
+            <div class="blog-content">
+              <h2 class="blog-title"><a href="blog-details.html">We are Giving Amazing Tour For VIP</a></h2>
+              <p class="blog-text">Lorem ipsum dolor sit amet, adipiscfvdg fgjnving consectetur adipiscing elit. dolor
+                sit amet.</p>
+              <div class="blog-bottom">
+                <a class="blog-date" href="blog-details.html"><i class="fas fa-calendar-alt"></i> July 22, 2023</a>
+                <a class="vs-btn style4" href="blog-details.html">Read More <i class="fal fa-arrow-right"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-4">
+          <div class="vs-blog blog-style3">
+            <div class="blog-img">
+              <a href="blog-details.html"><img src="assets/img/blog/blog-h-1-2.jpg" alt="blog image"></a>
+            </div>
+            <div class="blog-content">
+              <h2 class="blog-title"><a href="blog-details.html">Uncharted territories exploring the unknown</a></h2>
+              <p class="blog-text">Lorem ipsum dolor sit amet, adipiscfvdg fgjnving consectetur adipiscing elit. dolor
+                sit amet.</p>
+              <div class="blog-bottom">
+                <a class="blog-date" href="blog-details.html"><i class="fas fa-calendar-alt"></i> July 24, 2023</a>
+                <a class="vs-btn style4" href="blog-details.html">Read More <i class="fal fa-arrow-right"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-4">
+          <div class="vs-blog blog-style3">
+            <div class="blog-img">
+              <a href="blog-details.html"><img src="assets/img/blog/blog-h-1-3.jpg" alt="blog image"></a>
+            </div>
+            <div class="blog-content">
+              <h2 class="blog-title"><a href="blog-details.html">Roam And Revel captivating destinations explored</a>
+              </h2>
+              <p class="blog-text">Lorem ipsum dolor sit amet, adipiscfvdg fgjnving consectetur adipiscing elit. dolor
+                sit amet.</p>
+              <div class="blog-bottom">
+                <a class="blog-date" href="blog-details.html"><i class="fas fa-calendar-alt"></i> Aug 21, 2023</a>
+                <a class="vs-btn style4" href="blog-details.html">Read More <i class="fal fa-arrow-right"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-4">
+          <div class="vs-blog blog-style3">
+            <div class="blog-img">
+              <a href="blog-details.html"><img src="assets/img/blog/blog-h-1-4.jpg" alt="blog image"></a>
+            </div>
+            <div class="blog-content">
+              <h2 class="blog-title"><a href="blog-details.html">Voyage vignettes adventures beyond the horizon</a>
+              </h2>
+              <p class="blog-text">Lorem ipsum dolor sit amet, adipiscfvdg fgjnving consectetur adipiscing elit. dolor
+                sit amet.</p>
+              <div class="blog-bottom">
+                <a class="blog-date" href="blog-details.html"><i class="fas fa-calendar-alt"></i> Sep 21, 2023</a>
+                <a class="vs-btn style4" href="blog-details.html">Read More <i class="fal fa-arrow-right"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="text-center mb-30 wow fadeInUp pt-lg-2" data-wow-delay="0.7s">
+        <a href="blog-grid.html" class="vs-btn">View More</a>
+      </div>
+    </div>
+  </section>
+  <!--==============================
+     Blogs Area End 
+  ==============================-->
+
+  <!--==============================
+	  Footer Area
+	==============================-->
+  <footer class="footer-wrapper footer-layout1" data-bg-src="assets/img/bg/footer-bg.jpg">
+    <div class="footer-top">
+      <div class="shadow-color"></div>
+      <div class="container">
+        <div class="cta-style1">
+          <div class="row align-items-center justify-content-between">
+            <div class="col-lg-6">
+              <div class="cta-content">
+                <h2 class="cta-title">Ready to get started?</h2>
+                <p class="cta-text">It only takes a few minutes to register your account.</p>
+                <a href="contact.html" class="vs-btn style2">Contact Us</a>
+              </div>
+            </div>
+            <div class="col-md-5 col-sm-6">
+              <div class="cta-image d-lg-block d-none">
+                <img src="assets/img/newsletter.png" alt="CTA Image">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="widget-area">
+      <div class="container">
+        <div class="row g-5 justify-content-between">
+          <div class="col-md-6 col-xl-3">
+            <div class="widget footer-widget">
+              <div class="vs-widget-about">
+                <div class="footer-logo">
+                  <a href="index.html"  style="    font-size: 25px;
+                  font-weight: bold;
+                  color: orange;">
+                    Vyasaraja Matha
+
+                    <!-- <img src="assets/img/white-logo.svg" alt="Travolo" class="logo" /> -->
+                  </a>
+                </div>
+                <p class="footer-text">Curabitur aliquet quam id dui bandit posuere blandit. Vivamfdsus magna justo
+                  blandit aliquet.</p>
+                <div class="social-style1">
+                  <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                  <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                  <a href="#" target="_blank"><i class="fab fa-pinterest-p"></i></a>
+                  <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-xl-2">
+            <div class="widget widget_nav_menu footer-widget">
+              <h3 class="widget_title">Useful Links</h3>
+              <div class="menu-all-pages-container">
+                <ul class="menu">
+                  <li><a href="index.html"><i class="far fa-angle-right"></i> Home</a></li>
+                  <li><a href="#"><i class="far fa-angle-right"></i> Destinations</a></li>
+                  <li><a href="#"><i class="far fa-angle-right"></i> Tour</a></li>
+                  <li><a href="#"><i class="far fa-angle-right"></i> Shop</a></li>
+                  <li><a href="#"><i class="far fa-angle-right"></i> Blog</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-xl-3">
+            <div class="widget footer-widget">
+              <h4 class="widget_title">Our Instagram</h4>
+              <div class="sidebar-gallery">
+                <a href="assets/img/footer/insta1.jpg" class="popup-image"><img src="assets/img/footer/insta1.jpg"
+                    alt="Gallery Image" class="w-100" />
+                </a>
+                <a href="assets/img/footer/insta2.jpg" class="popup-image"><img src="assets/img/footer/insta2.jpg"
+                    alt="Gallery Image" class="w-100" />
+                </a>
+                <a href="assets/img/footer/insta3.jpg" class="popup-image"><img src="assets/img/footer/insta3.jpg"
+                    alt="Gallery Image" class="w-100" />
+                </a>
+                <a href="assets/img/footer/insta4.jpg" class="popup-image"><img src="assets/img/footer/insta4.jpg"
+                    alt="Gallery Image" class="w-100" />
+                </a>
+                <a href="assets/img/footer/insta5.jpg" class="popup-image"><img src="assets/img/footer/insta5.jpg"
+                    alt="Gallery Image" class="w-100" />
+                </a>
+                <a href="assets/img/footer/insta6.jpg" class="popup-image"><img src="assets/img/footer/insta6.jpg"
+                    alt="Gallery Image" class="w-100" />
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-xl-3">
+            <div class="widget footer-widget">
+              <h4 class="widget_title">Subscribe</h4>
+              <form class="newsletter-form">
+                <p class="form_text">Subscribe Our Newsletter For Getting Quick Updates</p>
+                <input class="form-control" type="email" placeholder="Your Email Address" />
+                <button type="submit" class="vs-btn style4">Subscribe</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="copyright-wrap">
+        <div class="row justify-content-between align-items-center">
+          <div class="col-lg-auto">
+            <p class="copyright-text">Copyright <i class="fal fa-copyright"></i>
+              <script>document.write(new Date().getFullYear())</script> <a href="index.html">Vyasaraja Matha</a>.
+              All Rights Reserved By <a href="https://themeforest.net/user/vecuro">Vyasaraja Matha</a>
+            </p>
+          </div>
+          <div class="col-auto d-none d-lg-block">
+            <div class="copyright-menu">
+              <ul class="list-unstyled">
+                <li><a href="#">Privacy</a></li>
+                <li><a href="#">Terms & Conditions</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!--********************************
+    Code Ends Here 
+	******************************** -->
+
+  <!-- Scroll To Top -->
+  <a href="#" class="scrollToTop scroll-btn"><i class="far fa-arrow-up"></i></a>
+
+  <!--==============================
+    All Js File
+============================== -->
+  <!-- Jquery -->
+  <script src="assets/js/vendor/jquery-3.6.0.min.js"></script>
+  <!-- Slick Slider -->
+  <script src="assets/js/slick.min.js"></script>
+  <!-- Bootstrap -->
+  <script src="assets/js/bootstrap.min.js"></script>
+  <!-- Magnific Popup -->
+  <script src="assets/js/jquery.magnific-popup.min.js"></script>
+  <!-- jquery Ui -->
+  <script src="assets/js/jquery-ui.min.js"></script>
+  <!-- Circle Progress -->
+  <script src="assets/js/circle-progress.min.js"></script>
+  <!-- isotope -->
+  <script src="assets/js/imagesLoaded.js"></script>
+  <script src="assets/js/isotope.js"></script>
+  <!-- Wow.js -->
+  <script src="assets/js/wow.min.js"></script>
+  <!-- Main Js File -->
+  <script src="assets/js/main.js"></script>
 </body>
+
+
+<!-- Mirrored from html.vecurosoft.com/travolo/demo/index-3.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 05 May 2025 02:30:54 GMT -->
 
 </html>
