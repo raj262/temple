@@ -156,3 +156,101 @@ body {
 .card:hover{
   box-shadow: rgb(229 107 0) 0px 25px 20px -20px
 }
+
+ .event-date {
+      border: 1px solid #ddd;
+      text-align: center;
+      padding: 10px 20px;
+      width: 60px;
+      border-radius: 10px;
+    }
+
+    .event-date .day {
+      font-size: 20px;
+      font-weight: bold;
+    }
+
+    .event-date .month {
+      color: red;
+      text-transform: uppercase;
+      font-size: 14px;
+    }
+
+    .event-item {
+      margin-bottom: 30px;
+    }
+
+    .event-content h6 {
+      font-weight: bold;
+    }
+
+    .dot {
+      height: 10px;
+      width: 10px;
+      background-color: red;
+      border-radius: 50%;
+      display: inline-block;
+      margin-left: 6px;
+    }
+
+    h2 {
+      font-family: serif;
+      font-weight: bold;
+      color: #b30000;
+      text-align: center;
+      margin: 30px 0;
+    }
+
+    .event-date {
+      border: 1px solid #ddd;
+      text-align: center;
+      width: 60px;
+      height: 60px;
+      border-radius: 10px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-color: #f8f9fa;
+      font-weight: bold;
+    }
+    
+    .event-date .day {
+      font-size: 18px;
+    }
+    
+    .event-date .month {
+      font-size: 12px;
+    }
+    
+
+    .event-item {
+      margin-bottom: 30px;
+    }
+
+    .event-content h6 {
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+
+    .dot {
+      height: 10px;
+      width: 10px;
+      background-color: red;
+      border-radius: 50%;
+      display: inline-block;
+      margin-left: 6px;
+    }
+
+    h2 {
+      font-family: serif;
+      font-weight: bold;
+      color: #b30000;
+      text-align: center;
+      margin: 30px 0;
+    }
+
+    .event-meta {
+      font-size: 0.9rem;
+      color: #6c757d;
+    }
