@@ -842,7 +842,7 @@
       size: 150,
       thickness: 25,
       startAngle: -1.56,
-      fill: "#FF681A",
+      fill: "#F2870C",
       emptyFill: "#FFCCB1",
     })
     .on("circle-animation-progress", function (event, progress, stepValue) {
