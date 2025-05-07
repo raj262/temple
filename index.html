@@ -4,10 +4,10 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>Vyasaraja Matha</title>
+  <title>Vyasaraja Matha - Home</title>
   <meta name="author" content="vecuro">
-  <meta name="description" content="Travolo -  Travel Agency & Tour Booking HTML Template">
-  <meta name="keywords" content="Travolo -  Travel Agency & Tour Booking HTML Template">
+  <meta name="description" content="Vyasaraja Matha">
+  <meta name="keywords" content="Vyasaraja Matha">
   <meta name="robots" content="INDEX,FOLLOW">
 
   <!-- Mobile Specific Metas -->
@@ -26,7 +26,9 @@
   <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- AOS CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
   <!-- Optional Remix Icons (only if you want to use them) -->
   <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
   <!--==============================
@@ -48,7 +50,12 @@
 
 <body>
 
-
+  <!-- Page Loader -->
+  <div id="loader" class="loader-container">
+    <div class="loader-circle">
+      <span class="loader-text">Vyasaraja Matha</span>
+    </div>
+  </div>
   <!--==============================
     Mobile Menu
   ============================== -->
@@ -369,71 +376,59 @@
     <div id="bannerCarousel" class="carousel slide position-relative" data-bs-ride="carousel">
       <div class="carousel-inner">
         <!-- Slide 1 -->
-        <div class="carousel-item active"
-          style="height: 600px; background: url('assets/img/banner/06f5f92b8a7a1a23ab042258e504f51b.jpg') center center / cover no-repeat;">
-          <div class="position-absolute top-0 start-0 w-100 h-100"
-            style="background-color: rgba(0,0,0,0.3); z-index: 1;"></div>
+        <div class="carousel-item active" style="height: 600px; background: url('assets/img/banner/06f5f92b8a7a1a23ab042258e504f51b.jpg') center center / cover no-repeat;">
+          <div class="position-absolute top-0 start-0 w-100 h-100" style="background-color: rgba(0,0,0,0.3); z-index: 1;"></div>
           <div class="container h-100 d-flex align-items-center text-white position-relative" style="z-index: 2;">
             <div class="col-md-8">
-              <h1 class="display-4 fw-bold mb-3 text-white">Preserving Ancient Wisdom</h1>
-              <p class="lead mb-4 text-white">Vyasaraja Matha: A sanctuary of spiritual knowledge and cultural heritage since 1480
-              </p>
-              <a href="#" class="btn exp-btn px-4 py-2 text-white">Explore Our Heritage</a>
+              <h1 class="display-4 fw-bold mb-3 text-white animate-on-slide delay-1">Preserving Ancient Wisdom</h1>
+              <p class="lead mb-4 text-white animate-on-slide delay-2">Vyasaraja Matha: A sanctuary of spiritual knowledge and cultural heritage since 1480</p>
+              <a href="#" class="btn exp-btn px-4 py-2 text-white animate-on-slide delay-3">Explore Our Heritage</a>
             </div>
           </div>
         </div>
-
+    
         <!-- Slide 2 -->
-        <div class="carousel-item"
-          style="height: 600px; background: url('assets/img/banner/4599e3500f71e4e7cb66aa6a84a99f99.jpg') center center / cover no-repeat;">
-          <div class="position-absolute top-0 start-0 w-100 h-100"
-            style="background-color: rgba(0,0,0,0.3); z-index: 1;"></div>
+        <div class="carousel-item" style="height: 600px; background: url('assets/img/banner/4599e3500f71e4e7cb66aa6a84a99f99.jpg') center center / cover no-repeat;">
+          <div class="position-absolute top-0 start-0 w-100 h-100" style="background-color: rgba(0,0,0,0.3); z-index: 1;"></div>
           <div class="container h-100 d-flex align-items-center text-white position-relative" style="z-index: 2;">
             <div class="col-md-8">
-              <h1 class="display-4 fw-bold mb-3 text-white">Sacred Rituals & Traditions</h1>
-              <p class="lead mb-4 text-white">Experience centuries-old ceremonies that connect us to our spiritual roots</p>
-              <a href="#" class="btn exp-btn px-4 py-2 text-white">Discover Our Practices</a>
+              <h1 class="display-4 fw-bold mb-3 text-white animate-on-slide delay-1">Sacred Rituals & Traditions</h1>
+              <p class="lead mb-4 text-white animate-on-slide delay-2">Experience centuries-old ceremonies that connect us to our spiritual roots</p>
+              <a href="#" class="btn exp-btn px-4 py-2 text-white animate-on-slide delay-3">Discover Our Practices</a>
             </div>
           </div>
         </div>
-
+    
         <!-- Slide 3 -->
-        <div class="carousel-item"
-          style="height: 600px; background: url('assets/img/banner/5f278c948709228d06b7afb6fb38827f.jpg') center center / cover no-repeat;">
-          <div class="position-absolute top-0 start-0 w-100 h-100"
-            style="background-color: rgba(0,0,0,0.3); z-index: 1;"></div>
+        <div class="carousel-item" style="height: 600px; background: url('assets/img/banner/5f278c948709228d06b7afb6fb38827f.jpg') center center / cover no-repeat;">
+          <div class="position-absolute top-0 start-0 w-100 h-100" style="background-color: rgba(0,0,0,0.3); z-index: 1;"></div>
           <div class="container h-100 d-flex align-items-center text-white position-relative" style="z-index: 2;">
             <div class="col-md-8">
-              <h1 class="display-4 fw-bold mb-3 text-white">Spiritual Guidance</h1>
-              <p class="lead mb-4 text-white">Find peace and purpose through the timeless teachings of our Gurus</p>
-              <a href="#" class="btn exp-btn px-4 py-2 text-white">Seek Guidance</a>
+              <h1 class="display-4 fw-bold mb-3 text-white animate-on-slide delay-1">Spiritual Guidance</h1>
+              <p class="lead mb-4 text-white animate-on-slide delay-2">Find peace and purpose through the timeless teachings of our Gurus</p>
+              <a href="#" class="btn exp-btn px-4 py-2 text-white animate-on-slide delay-3">Seek Guidance</a>
             </div>
           </div>
         </div>
       </div>
-
+    
       <!-- Controls -->
       <button class="carousel-control-prev" type="button" data-bs-target="#bannerCarousel" data-bs-slide="prev">
-        <span class="bg-white rounded-circle d-flex justify-content-center align-items-center" 
-              style="width: 50px; height: 50px;">
+        <span class="bg-white rounded-circle d-flex justify-content-center align-items-center" style="width: 50px; height: 50px;">
           <i class="bi bi-chevron-left text-dark fs-4"></i>
         </span>
         <span class="visually-hidden">Previous</span>
       </button>
-      
-      <!-- Next Button -->
       <button class="carousel-control-next" type="button" data-bs-target="#bannerCarousel" data-bs-slide="next">
-        <span class="bg-white rounded-circle d-flex justify-content-center align-items-center" 
-              style="width: 50px; height: 50px;">
+        <span class="bg-white rounded-circle d-flex justify-content-center align-items-center" style="width: 50px; height: 50px;">
           <i class="bi bi-chevron-right text-dark fs-4"></i>
         </span>
         <span class="visually-hidden">Next</span>
       </button>
-
+    
       <!-- Indicators -->
       <div class="carousel-indicators mt-3">
-        <button type="button" data-bs-target="#bannerCarousel" data-bs-slide-to="0" class="active" aria-current="true"
-          aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#bannerCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
         <button type="button" data-bs-target="#bannerCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
         <button type="button" data-bs-target="#bannerCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
       </div>
@@ -463,73 +458,55 @@
     About Area Start 
   ============================== -->
   <section class="space shape-mockup-wrap">
-    <!-- <div class="shape-mockup d-none d-xl-block ripple-animation z-index-negative" data-top="10%" data-left="5%">
-      <img src="assets/img/shape/Ballon.png" alt="svg">
-    </div> -->
-    <!-- <div class="shape-mockup d-none d-xl-block jump z-index-negative" data-top="10%" data-right="10%">
-      <img src="assets/img/shape/up-arrow.png" alt="svg">
-    </div> -->
-    <!-- <div class="shape-mockup d-none d-xl-block jump z-index-negative" data-bottom="0%" data-left="0%">
-      <img class="plane2" src="assets/img/shape/plane2.png" alt="svg">
-    </div> -->
-    <!-- <div class="shape-mockup d-none d-xl-block jump z-index-negative" data-bottom="15%" data-right="5%">
-      <img src="assets/img/shape/Lines.png" alt="svg">
-    </div> -->
     <div class="container">
       <div class="row align-items-center">
-        <div class="col-xl-5">
+        <div class="col-xl-5" data-aos="fade-right">
           <div class="about-content">
             <div class="title-area">
-              <!-- <span class="sec-subtitle">We are Travolo</span> -->
               <h2 class="sec-title h1">Sri Vyasaraja Mutt, Sosale</h2>
-              <p class="sec-text">Śrī Vyāsarāja Maṭha is popularly known as Munitraya (मुनित्रय) Matha —’the triad of
+              <p class="sec-text">
+                Śrī Vyāsarāja Maṭha is popularly known as Munitraya (मुनित्रय) Matha —’the triad of
                 sages’, one of the premier Dvaita Vedanta monasteries (matha) descending from Hamsanāmaka Bhagavanta,
                 followed by SanakādigaLu, Dūrvāsaru, Jagadguru Śrī Madhvācārya (incarnation of Shri Vaayu), Śrī
                 Jayatīrtha through Śrī Rajendratīrtha. Śrī Vyāsarāja Maṭha is the unique pīṭha that has been adorned by
-                Munitrayaru as mentioned in the following shloka:</p>
-              <p>śrī madhvaḥ kalpavr̥kśaśca jayāryaḥ kāmadhuk smr̥taḥ |
-                cintāmaṇistu vyāsāryaḥ munitrayamudāhr̥tam ||</p>
-              <p>
+                Munitrayaru as mentioned in the following shloka:
+              </p>
+              <p data-aos="fade-up" data-aos-delay="200">
+                śrī madhvaḥ kalpavr̥kśaśca jayāryaḥ kāmadhuk smr̥taḥ |
+                cintāmaṇistu vyāsāryaḥ munitrayamudāhr̥tam ||
+              </p>
+              <p data-aos="fade-up" data-aos-delay="300">
                 Śrī Vyāsarāja Maṭha is uniquely identified with its contribution towards various scholarly compositions
                 on Dvaita philosophy based on Vedic science as well as service to the nation and society.
               </p>
             </div>
-            <a href="about.html" class="border-circle px-4 py-2 rounded-pill text-white">More about Śrī Vyāsarāja
-              Maṭha</a>
+            <a href="about.html" class="border-circle px-4 py-2 rounded-pill text-white" data-aos="fade-up" data-aos-delay="400">
+              More about Śrī Vyāsarāja Maṭha
+            </a>
           </div>
         </div>
-        <div class="col-xl-6">
+        <div class="col-xl-6" data-aos="zoom-in">
           <div class="img-box3">
-            <img class="img1" src="assets/img/banner/4599e3500f71e4e7cb66aa6a84a99f99.jpg" alt="about image">
+            <img class="img1" src="assets/img/banner/4599e3500f71e4e7cb66aa6a84a99f99.jpg" alt="Mutt Entrance">
             <div class="bottom-img">
-              <img class="img2" src="assets/img/banner/06f5f92b8a7a1a23ab042258e504f51b.jpg" alt="about image">
-              <img class="img3" src="assets/img/banner/h1.jpg" alt="about image">
+              <img class="img2" src="assets/img/banner/06f5f92b8a7a1a23ab042258e504f51b.jpg" alt="Mutt Interior">
+              <img class="img3" src="assets/img/banner/h1.jpg" alt="Temple Icon">
             </div>
           </div>
         </div>
       </div>
     </div>
   </section>
-  <!-- ============================== 
-    About Area End 
-  ============================== -->
-
+  
+  <!-- ========== About Section 2 ========== -->
   <section class="space bg-light shape-mockup-wrap">
-    <!-- <div class="shape-mockup d-none d-xl-block jump z-index-negative" data-bottom="20%" data-left="5%">
-      <img src="assets/img/shape/Dot.png" alt="Dots">
-    </div>
-    <div class="shape-mockup d-none d-xl-block spin z-index-negative" data-bottom="-5%" data-right="-5%">
-      <img src="assets/img/shape/circle1.png" alt="Circle">
-    </div> -->
-    <!-- <div class="shape-mockup d-none d-xl-block ripple-animation z-index-negative" data-top="10%" data-left="10%">
-      <img src="assets/img/shape/Plane.png" alt="plane">
-    </div> -->
-    <div class="container ">
+    <div class="container">
       <div class="row justify-content-center text-center">
-        <div class="col-xl-10 col-lg-8 wow fadeInUp" data-wow-delay="0.3s">
+        <div class="col-xl-10 col-lg-8 wow fadeInUp" data-aos="fade-up">
           <div class="title-area">
-            <h2 class="sec-title h1">About Śrī Vyāsa Tīrtharu</h2>
-            <p class="sec-text">Śrī Vyāsatīrtha, the scholar of Tattvavāda is held in high esteem only next to Śrī
+            <h2 class="sec-title h1" data-aos="fade-up">About Śrī Vyāsa Tīrtharu</h2>
+            <p class="sec-text" data-aos="fade-up" data-aos-delay="100">
+              Śrī Vyāsatīrtha, the scholar of Tattvavāda is held in high esteem only next to Śrī
               Jayatīrtha. His fundamental work has been to write detailed commentaries on the works of Śrīmad
               Anandatirtha and Śrī Jayatīrtha, and to show Tattvavāda as being placed on a firm logical footing. His
               work is considered to be of the highest significance, particularly because it is accepted even by his
@@ -537,15 +514,14 @@
               that is hard for the less skilled to even conceive of, let alone match. His logic is exceptionally hard to
               beat, because of his uncanny knack of knowing exactly what the opponent is going to say, and using this
               information to lead the opponent into traps of logic that are many steps deep, and impossible to work
-              through or around. One feels that while one gropes in the dark and tries to guess where one is and
-              struggles to find one’ s way.</p>
+              through or around.
+            </p>
           </div>
-          <div class="text-center pt-lg-2">
+          <div class="text-center pt-lg-2" data-aos="fade-up" data-aos-delay="200">
             <a href="#" class="border-circle px-4 py-2 rounded-pill text-white">View More</a>
           </div>
         </div>
       </div>
-
     </div>
   </section>
 
@@ -553,15 +529,15 @@
 
   <section class="py-5" style="background-color: #FBE2CC;">
     <div class="container">
-      <h2 class="text-center fw-bold mb-5">Swami Tour Schedule</h2>
+      <h2 class="text-center fw-bold mb-5" data-aos="fade-up">Swami Tour Schedule</h2>
       <div class="position-relative mx-auto" style="max-width: 900px;">
         <!-- Timeline vertical line -->
         <div
           class="position-absolute top-0 bottom-0 start-50 translate-middle-x border-start border-line d-none d-md-block"
           style="width: 2px; opacity: 0.2;"></div>
-
+  
         <!-- Entry 1 -->
-        <div class="position-relative mb-5">
+        <div class="position-relative mb-5" data-aos="fade-left">
           <div
             class="position-absolute start-50 translate-middle border border-white border-circle rounded-circle d-none d-md-block"
             style="width: 32px; height: 32px; z-index: 1;"></div>
@@ -570,10 +546,9 @@
               <a href="#" class="btn border-circle rounded-pill px-4 py-2 text-white">May 10, 2025</a>
             </div>
             <div class="col-md-6 ps-md-5">
-              <div class="bg-white rounded p-4 text-md-start text-center">
+              <div class="bg-white rounded p-4 text-md-start text-center" data-aos="zoom-in" data-aos-delay="100">
                 <h4 class="fw-semibold mb-3">Bangalore - Sri Krishna Temple</h4>
-                <p class="text-muted mb-3">Special discourse on Bhagavad Gita Chapter 12: Bhakti Yoga -
-                  The Path of Devotion</p>
+                <p class="text-muted mb-3">Special discourse on Bhagavad Gita Chapter 12: Bhakti Yoga - The Path of Devotion</p>
                 <div class="d-flex align-items-center text-muted justify-content-md-start justify-content-center">
                   <i class="bi bi-geo-alt text-black me-2"></i>
                   <span>Sri Krishna Temple, Bangalore</span>
@@ -582,9 +557,9 @@
             </div>
           </div>
         </div>
-
+  
         <!-- Entry 2 -->
-        <div class="position-relative mb-5">
+        <div class="position-relative mb-5" data-aos="fade-right">
           <div
             class="position-absolute start-50 translate-middle border border-white border-circle rounded-circle d-none d-md-block"
             style="width: 32px; height: 32px; z-index: 1;"></div>
@@ -593,10 +568,9 @@
               <a href="#" class="btn border-circle rounded-pill px-4 py-2 text-white">May 15, 2025</a>
             </div>
             <div class="col-md-6 order-md-1 text-md-end text-center pe-md-5">
-              <div class="bg-white rounded p-4 text-md-end text-center">
+              <div class="bg-white rounded p-4 text-md-end text-center" data-aos="zoom-in" data-aos-delay="200">
                 <h4 class="fw-semibold mb-3">Mysore - Parakala Matha</h4>
-                <p class="text-muted mb-3">Vedanta discourse series on Upanishads, followed by
-                  traditional cultural performances</p>
+                <p class="text-muted mb-3">Vedanta discourse series on Upanishads, followed by traditional cultural performances</p>
                 <div class="d-flex align-items-center text-muted justify-content-md-end justify-content-center">
                   <i class="bi bi-geo-alt text-black me-2"></i>
                   <span>Parakala Matha, Mysore</span>
@@ -605,9 +579,9 @@
             </div>
           </div>
         </div>
-
+  
         <!-- Entry 3 -->
-        <div class="position-relative mb-5">
+        <div class="position-relative mb-5" data-aos="fade-left">
           <div
             class="position-absolute start-50 translate-middle border border-white border-circle rounded-circle d-none d-md-block"
             style="width: 32px; height: 32px; z-index: 1;"></div>
@@ -616,10 +590,9 @@
               <a href="#" class="btn border-circle rounded-pill px-4 py-2 text-white">May 22, 2025</a>
             </div>
             <div class="col-md-6 ps-md-5">
-              <div class="bg-white rounded p-4 text-md-start text-center">
+              <div class="bg-white rounded p-4 text-md-start text-center" data-aos="zoom-in" data-aos-delay="300">
                 <h4 class="fw-semibold mb-3">Udupi - Krishna Matha</h4>
-                <p class="text-muted mb-3">Special discourse on Madhva philosophy and traditional temple
-                  rituals with blessings</p>
+                <p class="text-muted mb-3">Special discourse on Madhva philosophy and traditional temple rituals with blessings</p>
                 <div class="d-flex align-items-center text-muted justify-content-md-start justify-content-center">
                   <i class="bi bi-geo-alt text-black me-2"></i>
                   <span>Krishna Matha, Udupi</span>
@@ -628,9 +601,9 @@
             </div>
           </div>
         </div>
-
+  
         <!-- View More Button -->
-        <div class="text-center mt-5">
+        <div class="text-center mt-5" data-aos="fade-up" data-aos-delay="400">
           <a href="#" class="border-circle px-4 py-2 rounded-pill text-white">View Complete Schedule</a>
         </div>
       </div>
@@ -639,10 +612,10 @@
 
   <section class="py-5 bg-white event">
     <div class="container">
-      <h2 class="text-center fw-bold mb-5">Upcoming Events</h2>
+      <h2 class="text-center fw-bold mb-5" data-aos="fade-up">Upcoming Events</h2>
       <div class="row g-4 justify-content-center">
         <!-- Event 1 -->
-        <div class="col-12 col-md-6 col-lg-4">
+        <div class="col-12 col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
           <div class="card border-0 h-100 transition">
             <div class="position-relative zoom-container">
               <img
@@ -668,9 +641,9 @@
             </div>
           </div>
         </div>
-
+  
         <!-- Event 2 -->
-        <div class="col-12 col-md-6 col-lg-4">
+        <div class="col-12 col-md-6 col-lg-4" data-aos="fade-left" data-aos-delay="200">
           <div class="card border-0 h-100 transition">
             <div class="position-relative zoom-container">
               <img
@@ -696,9 +669,9 @@
             </div>
           </div>
         </div>
-
+  
         <!-- Event 3 -->
-        <div class="col-12 col-md-6 col-lg-4">
+        <div class="col-12 col-md-6 col-lg-4" data-aos="fade-right" data-aos-delay="300">
           <div class="card border-0 h-100 transition">
             <div class="position-relative zoom-container">
               <img
@@ -725,29 +698,29 @@
           </div>
         </div>
       </div>
-
+  
       <!-- View All Events Button -->
-      <div class="text-center mt-5">
+      <div class="text-center mt-5" data-aos="fade-up" data-aos-delay="400">
         <a href="#" class="border-circle px-4 py-2 rounded-pill text-white">View All Events</a>
       </div>
     </div>
   </section>
 
   <section class="space bg-light shape-mockup-wrap">
-    <div class="container ">
+    <div class="container">
       <div class="row justify-content-center text-center">
-
+  
         <div class="row">
-          <div class="col-xl-12 col-lg-8 wow fadeInUp" data-wow-delay="0.3s">
+          <div class="col-xl-12 col-lg-8 wow fadeInUp" data-wow-delay="0.3s" data-aos="fade-up" data-aos-delay="300">
             <div class="title-area">
-              <h2 class="text-center fw-bold mb-5">Current Pithadhipati</h2>
-              <div class="m-3">
+              <h2 class="text-center fw-bold mb-5" data-aos="fade-down" data-aos-delay="200">Current Pithadhipati</h2>
+              <div class="m-3" data-aos="zoom-in" data-aos-delay="400">
                 <img class="img-1-1 rounded-circle" src="assets/img/new/Mask-Group-34.png" alt="Offer image">
-
               </div>
-              <h3 class="text-center fw-bold mb-2 mt-4">Śrī Vyāsatīrtha tirtha Swami</h3>
-              <h6 class="text-center sec-subtitle">35th pithadhipate of Vyasaraja Matha</h6>
-              <p class="sec-text mt-5">Śrī Vyāsatīrtha, the scholar of Tattvavāda is held in high esteem only next to
+              <h3 class="text-center fw-bold mb-2 mt-4" data-aos="fade-up" data-aos-delay="500">Śrī Vyāsatīrtha tirtha Swami</h3>
+              <h6 class="text-center sec-subtitle" data-aos="fade-up" data-aos-delay="600">35th pithadhipate of Vyasaraja Matha</h6>
+              <p class="sec-text mt-5" data-aos="fade-up" data-aos-delay="700">
+                Śrī Vyāsatīrtha, the scholar of Tattvavāda is held in high esteem only next to
                 Śrī
                 Jayatīrtha. His fundamental work has been to write detailed commentaries on the works of Śrīmad
                 Anandatirtha and Śrī Jayatīrtha, and to show Tattvavāda as being placed on a firm logical footing. His
@@ -758,17 +731,16 @@
                 beat, because of his uncanny knack of knowing exactly what the opponent is going to say, and using this
                 information to lead the opponent into traps of logic that are many steps deep, and impossible to work
                 through or around. One feels that while one gropes in the dark and tries to guess where one is and
-                struggles to find one’ s way.</p>
+                struggles to find one’ s way.
+              </p>
             </div>
-            <div class="text-center pt-lg-2">
+            <div class="text-center pt-lg-2" data-aos="flip-up" data-aos-delay="800">
               <a href="#" class="border-circle px-4 py-2 rounded-pill text-white">View More</a>
             </div>
           </div>
-
         </div>
-
+  
       </div>
-
     </div>
   </section>
 
@@ -777,7 +749,8 @@
     <div class="container ">
       <div class="row justify-content-center text-center">
         <div class="col-xl-6 col-lg-8 wow fadeInUp" data-wow-delay="0.3s">
-          <div class="title-area">
+        <div class="col-xl-6 col-lg-8 wow fadeInUp" data-wow-delay="0.3s">
+          <div class="title-area animated-title">
             <h2 class="sec-title h1 text-white">Highlighted Videos</h2>
           </div>
         </div>
@@ -1183,6 +1156,26 @@
   <script src="assets/js/main.js"></script>
   <!-- Bootstrap JS -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script>
+  // Initialize AOS
+  AOS.init({
+    offset: 120, // Start animations when the section is 120px from the viewport
+    delay: 0, // No delay between animations
+    duration: 800, // Duration of the animation in ms
+    easing: 'ease', // Easing effect for animation
+    once: false, // This makes the animation run every time the element enters the viewport
+    mirror: true // This makes the animation trigger when scrolling both up and down
+  });
+
+  // Wait for the page to load
+  window.addEventListener("load", () => {
+  // Add a small timeout to ensure the transition is smooth
+  setTimeout(() => {
+    document.body.classList.add("loaded");
+  }, 500); // Delay for 500ms to allow loader fade out
+});
+</script>
 </body>
 
 
