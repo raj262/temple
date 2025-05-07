@@ -3438,7 +3438,7 @@ Header Customization
 }
 
 .menu-style1 > ul > li {
-  padding: 47px 0;
+  padding: 28px 0;
 }
 
 .menu-style1 > ul > li > a {
@@ -12999,3 +12999,4 @@ body.loaded #loader {
 .text-center a:hover {
   background-color: #f39c12; /* Change color on hover */
 }
+
