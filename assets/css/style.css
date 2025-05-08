@@ -12982,14 +12982,14 @@ body.loaded #loader {
 }
 
 /* Smooth fade-in effect for package footer text */
-.package-footer p {
+/* .package-footer p {
   opacity: 0;
   transition: opacity 0.5s ease-in-out;
 }
 
 .package-style1:hover .package-footer p {
   opacity: 1;
-}
+} */
 
 /* Button hover effect */
 .text-center a {
@@ -13000,3 +13000,48 @@ body.loaded #loader {
   background-color: #f39c12; /* Change color on hover */
 }
 
+
+/* media query */
+@media (max-width: 767px) {
+  .carousel-item h1 {
+    font-size: 1.75rem;
+  }
+  .carousel-item p {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 425px) {
+  .header-top {
+    display: none;
+  }
+}
+.heading-underline::after {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80px; /* adjust width as needed */
+  height: 3px;  /* line thickness */
+  background-color: orange; /* or any color you prefer */
+  border-radius: 2px;
+}
+
+.line-icon-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.line-icon-wrapper .line {
+  width: 60px; /* adjust this value to make the line shorter */
+  height: 2px;
+  background-color: orange;
+  margin: 0 10px;
+}
+
+.line-icon-wrapper .icon {
+  font-size: 24px;
+  color: orange;
+}
