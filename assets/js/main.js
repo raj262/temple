@@ -1010,3 +1010,29 @@
       return false;
     }
   }
+
+
+  document.addEventListener("DOMContentLoaded", function () {
+    const loadMoreBtn = document.getElementById("loadMoreBtn");
+  
+    if (loadMoreBtn) {
+      loadMoreBtn.addEventListener("click", function () {
+        const hiddenItems = document.querySelectorAll(".guru-hidden.d-none");
+        const batchSize = 2;
+        let count = 0;
+  
+        hiddenItems.forEach((item) => {
+          if (count < batchSize) {
+            item.classList.remove("d-none");
+            count++;
+          }
+        });
+  
+        if (document.querySelectorAll(".guru-hidden.d-none").length === 0) {
+          loadMoreBtn.style.display = "none";
+        }
+  
+        AOS.refresh(); // Re-initialize animations
+      });
+    }
+  });
