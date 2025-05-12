@@ -1036,3 +1036,34 @@
       });
     }
   });
+
+  document.addEventListener("DOMContentLoaded", function () {
+    const items = document.querySelectorAll('.history-steped');
+    const loadMoreBtn = document.getElementById('loadMoreBtn');
+    const itemsPerClick = 4;
+    let currentIndex = 0;
+
+    // Hide all items beyond the first 4
+    items.forEach((item, index) => {
+      if (index >= itemsPerClick) item.style.display = 'none';
+    });
+
+    loadMoreBtn.addEventListener('click', function () {
+      const nextIndex = currentIndex + itemsPerClick;
+      for (let i = currentIndex; i < nextIndex && i < items.length; i++) {
+        items[i].style.display = 'block';
+      }
+      currentIndex = nextIndex;
+
+      if (currentIndex >= items.length) {
+        loadMoreBtn.style.display = 'none';
+      }
+
+      // Optional: refresh AOS animations if needed
+      if (typeof AOS !== 'undefined') {
+        AOS.refresh();
+      }
+    });
+
+    currentIndex = itemsPerClick;
+  });

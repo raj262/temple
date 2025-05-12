@@ -2372,7 +2372,7 @@ a.text-theme:hover,
 
 .widget {
   padding: var(--widget-padding-y, 30px) var(--widget-padding-x, 20px);
-  background-color: var(--smoke-color);
+  background-color: #FBE2CC;
   position: relative;
   margin-bottom: 40px;
   border-radius: 6px;
@@ -7425,19 +7425,19 @@ Header Customization
   z-index: 1;
 }
 
-.history-steped::before {
+/* .history-steped::before {
   width: 105px;
   height: 2px;
   background-color: var(--border-color);
-}
+} */
 
-.history-steped::after {
+/* .history-steped::after {
   width: 10px;
   height: 10px;
   outline: 5px solid var(--border-color);
   border-radius: 50%;
   background-color: var(--theme-color);
-}
+} */
 
 .history-steped .divider {
   height: 100%;
@@ -7471,11 +7471,11 @@ Header Customization
   top: unset;
 }
 
-.history-steped:nth-child(even) {
+/* .history-steped:nth-child(even) {
   margin-top: 80px;
   padding-left: 100px;
   padding-right: unset;
-}
+} */
 
 .history-steped:nth-child(even)::before,
 .history-steped:nth-child(even)::after {
@@ -7517,18 +7517,18 @@ Header Customization
   transform: translateY(-50%);
 }
 
-.vs-history .history-date::before {
+/* .vs-history .history-date::before {
   width: 120px;
   height: 2px;
   background-color: var(--border-color);
-}
+} */
 
-.vs-history .history-date::after {
+/* .vs-history .history-date::after {
   width: 10px;
   height: 10px;
   border-radius: 50%;
   background-color: var(--theme-color);
-}
+} */
 
 .vs-history .history-title {
   margin-bottom: 0;
