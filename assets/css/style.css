@@ -13045,3 +13045,16 @@ body.loaded #loader {
   font-size: 24px;
   color: orange;
 }
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-size: 60% 60%; /* Make the arrow icon smaller inside the circle */
+    border: 2px solid #fff;
+}
+
+.carousel-img {
+  width: 100%;
+  height: 500px!important; /* Or whatever height fits your layout */
+  object-fit: cover;
+  border-radius: 10px; /* Optional: for rounded corners */
+}
