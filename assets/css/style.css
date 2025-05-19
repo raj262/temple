@@ -13073,3 +13073,72 @@ body.loaded #loader {
 .btn-sm {
   margin-right: 0.5rem;
 }
+
+
+.custom-card {
+  background-color: #ffffff;
+  border: none;
+  border-radius: 15px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.03);
+}
+
+.play-icon {
+  background-color: #ffe4c4;
+  border-radius: 15px;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 15px;
+  flex-shrink: 0;
+}
+
+.play-icon i {
+  color: #ff8000;
+  font-size: 24px;
+}
+
+.title {
+  font-weight: 600;
+  font-size: 1.2rem;
+  color: #2c2c2c;
+}
+
+.subtitle {
+  font-size: 0.95rem;
+  color: #7b7b7b;
+}
+
+#load-more {
+  border-radius: 8px;
+  padding: 10px 25px;
+}
+
+.prana{
+  margin-bottom: 60px;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid var(--border-color);
+}
+
+.widget-search {
+  padding: var(--widget-padding-y, 30px) var(--widget-padding-x, 20px);
+  position: relative;
+  margin-bottom: 40px;
+  border-radius: 6px;
+}
+
+.modal-body input {
+  height: 60px;
+  padding: 10px 10px 10px 10px!important;
+  padding-right: 5px!important;
+  border-radius: 10px;
+  color: var(--body-color);
+  border: 1px solid var(--border-color);
+  background-color: var(--white-color);
+  font-size: 14px;
+  width: 100%;
+}
