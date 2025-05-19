@@ -13058,3 +13058,18 @@ body.loaded #loader {
   object-fit: cover;
   border-radius: 10px; /* Optional: for rounded corners */
 }
+.branch-card {
+  border: 1px solid #ddd;
+  padding: 1rem;
+  border-radius: 10px;
+  background: #fff;
+  margin-bottom: 1rem;
+}
+.map-container {
+  height: 500px;
+  background-color: #e9ecef;
+  border-radius: 10px;
+}
+.btn-sm {
+  margin-right: 0.5rem;
+}
