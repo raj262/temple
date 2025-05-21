@@ -64,8 +64,8 @@
   --icon-font: "Font Awesome 5 Pro";
   --main-container: 1220px;
   --container-gutters: 30px;
-  --section-space: 86px;
-  --section-space-mobile: 80px;
+  --section-space: 30px;
+  --section-space-mobile: 30px;
   --section-title-space: 80px;
   --ripple-ani-duration: 5s;
 }
