@@ -374,7 +374,15 @@
           <!-- Cards will be injected here -->
         </div>
         <div class="text-center mt-4">
-          <button id="load-more" class="btn btn-primary">Load More</button>
+             <div class="vs-pagination">
+                    <ul>
+                        <li><a href="#"><i class="fas fa-chevron-left"></i></a></li>
+                        <li><a href="#">1</a></li>
+                        <li><a href="#">2</a></li>
+                        <li><a href="#">3</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i></a></li>
+                    </ul>
+                </div>
         </div>
       </div>
 
@@ -581,17 +589,7 @@ new WOW().init();
       for (let i = start; i < end; i++) {
         container.innerHTML += createCard();
       }
-
-      if (end >= totalCards) {
-        document.getElementById('load-more').style.display = 'none';
-      }
     }
-
-    document.getElementById('load-more').addEventListener('click', () => {
-      currentPage++;
-      loadCards();
-    });
-
     // Initial load
     loadCards();
   </script>
