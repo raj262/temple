@@ -13334,3 +13334,9 @@ body.loaded #loader {
     .btn-orange:hover {
       background-color: #e6810d;
     }
+
+    .carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: rgba(0, 0, 0, 0.5); /* Temporary for visibility */
+  border-radius: 50%;
+}
