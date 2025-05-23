@@ -13279,3 +13279,22 @@ body.loaded #loader {
         height: 200px;
       }
     }
+
+     .calendar-day {
+      width: 45px;
+      height: 45px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      margin: 5px;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+    .calendar-day:hover {
+      background-color: #ffd1d1;
+    }
+    .selected {
+      background-color: #e65100 !important;
+      color: white;
+      border: 2px solid #b71c1c;
+    }
