@@ -559,39 +559,83 @@
 new WOW().init();
 </script>
 <script>
-    const totalCards = 30; // total number of cards available
-    const cardsPerPage = 10;
-    let currentPage = 1;
+  const totalCards = 30;
+  const cardsPerPage = 10;
+  let currentPage = 1;
+  let currentAudio = null;
+  let currentIcon = null;
 
-    // Card HTML structure
-    function createCard() {
-      return `
-        <div class="col-12">
-          <div class="custom-card d-flex align-items-center">
-            <div class="play-icon">
-              <i class="bi bi-play-fill"></i>
-            </div>
-            <div>
-              <div class="title">Sosale Sambhrama</div>
-              <div class="subtitle">Acknowledgement: Vyasaraja Matha Youtube</div>
-            </div>
+  function createCard(index) {
+    return `
+      <div class="col-12">
+        <div class="custom-card d-flex align-items-center">
+          <div class="play-icon" onclick="togglePlay(${index})">
+            <i class="bi bi-play-fill" id="icon-${index}"></i>
+          </div>
+          <div>
+            <div class="title">Sosale Sambhrama</div>
+            <div class="subtitle">Acknowledgement: Vyasaraja Matha Youtube</div>
+            <audio id="audio-${index}" src="your-audio-file-path.mp3"></audio>
           </div>
         </div>
-      `;
+      </div>
+    `;
+  }
+
+  function loadCards() {
+    const container = document.getElementById('card-container');
+    container.innerHTML = ''; // Clear previous cards
+    const start = (currentPage - 1) * cardsPerPage;
+    const end = Math.min(start + cardsPerPage, totalCards);
+
+    for (let i = start; i < end; i++) {
+      container.innerHTML += createCard(i);
     }
 
-    // Load next batch of cards
-    function loadCards() {
-      const container = document.getElementById('card-container');
-      const start = (currentPage - 1) * cardsPerPage;
-      const end = Math.min(start + cardsPerPage, totalCards);
+    // Reset current audio tracking on page change
+    currentAudio = null;
+    currentIcon = null;
+  }
 
-      for (let i = start; i < end; i++) {
-        container.innerHTML += createCard();
+  function togglePlay(index) {
+    const audio = document.getElementById(`audio-${index}`);
+    const icon = document.getElementById(`icon-${index}`);
+
+    // If a different audio is already playing, stop it
+    if (currentAudio && currentAudio !== audio) {
+      currentAudio.pause();
+      currentAudio.currentTime = 0;
+      if (currentIcon) {
+        currentIcon.classList.remove('bi-pause-fill');
+        currentIcon.classList.add('bi-play-fill');
       }
     }
-    // Initial load
+
+    // Toggle current audio
+    if (audio.paused) {
+      audio.play();
+      icon.classList.remove('bi-play-fill');
+      icon.classList.add('bi-pause-fill');
+      currentAudio = audio;
+      currentIcon = icon;
+    } else {
+      audio.pause();
+      icon.classList.remove('bi-pause-fill');
+      icon.classList.add('bi-play-fill');
+      currentAudio = null;
+      currentIcon = null;
+    }
+  }
+
+  function changePage(page) {
+    const totalPages = Math.ceil(totalCards / cardsPerPage);
+    if (page < 1 || page > totalPages) return;
+    currentPage = page;
     loadCards();
-  </script>
+  }
+
+  // Initial load
+  loadCards();
+</script>
 </body>
 </html>
