@@ -278,7 +278,14 @@
                 </li>
               </ul>
             </div>
-            <a class="user-btn" href="#"><i class="far fa-user-circle"></i></a>
+            <a class="user-btn" onclick="toggleLoginOptions()">
+              <i class="far fa-user-circle"></i>
+            </a>
+
+            <div class="login-options" id="loginOptions">
+              <button onclick="loginWithGoogle()">Login with Google</button>
+              <button onclick="loginWithApple()">Login with Apple</button>
+            </div>
           </div>
         </div>
       </div>

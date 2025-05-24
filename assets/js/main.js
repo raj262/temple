@@ -1067,3 +1067,18 @@
 
     currentIndex = itemsPerClick;
   });
+
+  function toggleLoginOptions() {
+  const options = document.getElementById("loginOptions");
+  options.style.display = options.style.display === "block" ? "none" : "block";
+}
+
+function loginWithGoogle() {
+  alert("Google login clicked");
+  // Implement actual Google login logic here
+}
+
+function loginWithApple() {
+  alert("Apple login clicked");
+  // Implement actual Apple login logic here
+}
