@@ -2930,7 +2930,7 @@ a.text-theme:hover,
   display: block;
   position: relative;
   font-family: var(--body-font);
-  font-weight: 600;
+  font-weight: 400;
   font-size: 18px;
   color: var(--title-color);
   /* Extra large devices */
