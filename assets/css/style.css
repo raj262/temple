@@ -12790,7 +12790,6 @@ Header Customization
 
 .border-circle:hover {
   transform: scale(1.05);
-  background-color: #0056b3; /* Darker shade on hover */
   box-shadow: 0 4px 15px rgba(0, 123, 255, 0.4);
   color: #fff;
 }
@@ -13350,3 +13349,17 @@ body.loaded #loader {
       font-size: 16px;
       cursor: pointer;
     }
+
+    .footer-btn {
+  display: inline-block;
+  transition: all 0.3s ease;
+  border: none;
+  font-weight: 500;
+  border: 1px solid;
+}
+
+.footer-btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 15px rgba(0, 123, 255, 0.4);
+  color: #fff;
+}
