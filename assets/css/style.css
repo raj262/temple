@@ -13363,3 +13363,71 @@ body.loaded #loader {
   box-shadow: 0 4px 15px rgba(0, 123, 255, 0.4);
   color: #fff;
 }
+
+/* today  */
+ .testimonial-section {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+    }
+
+    .left-img {
+      background: url('https://images.unsplash.com/photo-1618221464760-0b9c240b4123?fit=crop&w=900&q=80') no-repeat center center;
+      background-size: cover;
+      min-height: 100vh;
+    }
+
+    .testimonial-content {
+      padding: 12px;
+    }
+
+    .testimonial-logo {
+      font-family: 'Cursive';
+      font-size: 32px;
+      margin-bottom: 20px;
+    }
+
+    .nav-circle {
+      width: 40px;
+      height: 40px;
+      background-color: #0d6efd;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%;
+      cursor: pointer;
+    }
+
+    .nav-circle:hover {
+      background-color: #0b5ed7;
+    }
+
+    .nav-left {
+      position: absolute;
+      left: 20px;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+
+    .nav-right {
+      position: absolute;
+      right: 20px;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+
+    .author {
+      font-weight: bold;
+      font-size: 1.25rem;
+      margin-top: 20px;
+    }
+
+    .position {
+      color: #6c757d;
+    }
+
+    .slide{
+      background: #fbe2cc;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
