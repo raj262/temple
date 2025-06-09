@@ -13451,3 +13451,17 @@ body.loaded #loader {
 .package-content:hover .right-arrow i {
   color: #007bff;
 }
+
+
+/* header */
+.sticky-wrapper {
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  background-color: white; /* or your desired background */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* optional: for better visual */
+}
+
+.sticky-active {
+  padding: 10px 0; /* adjust padding if needed */
+}
