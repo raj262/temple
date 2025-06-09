@@ -2892,11 +2892,11 @@ a.text-theme:hover,
   /* Small devices */
 }
 
-@media (max-width: 991px) {
+/* @media (max-width: 991px) {
   .vs-logo img {
     padding: 20px 0;
   }
-}
+} */
 
 @media (max-width: 767px) {
   .vs-logo img {
