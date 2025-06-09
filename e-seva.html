@@ -472,7 +472,7 @@
                   <div class="latest-post">
                     <div class="media-img">
                       <a href="#">
-                        <img src="assets/img/products/product1.png" alt="temple image">
+                        <img src="assets/img/bannertwo/a9e0edc554.jpg" alt="temple image">
                       </a>
                     </div>
                     <div class="media-body">
@@ -485,7 +485,7 @@
                   <div class="latest-post">
                     <div class="media-img">
                       <a href="#">
-                        <img src="assets/img/products/product2.png" alt="temple image">
+                        <img src="assets/img/bannertwo/a9e0edc554.jpg" alt="temple image">
                       </a>
                     </div>
                     <div class="media-body">
@@ -498,7 +498,7 @@
                   <div class="latest-post">
                     <div class="media-img">
                       <a href="#">
-                        <img src="assets/img/products/product3.png" alt="temple image">
+                        <img src="assets/img/bannertwo/a9e0edc554.jpg" alt="temple image">
                       </a>
                     </div>
                     <div class="media-body">
@@ -663,35 +663,46 @@
 
 
   <!-- Modal -->
-  <div class="modal fade" id="cartModal" tabindex="-1" aria-labelledby="cartModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <form id="cartForm">
-          <div class="modal-header">
-            <h5 class="modal-title" id="cartModalLabel">Add to Cart Details</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+  <!-- Bootstrap Modal -->
+<div class="modal fade" id="cartModal" tabindex="-1" aria-labelledby="cartModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content shadow-lg border-0 rounded-4">
+      <form id="cartForm">
+        <div class="modal-header text-white rounded-top-4">
+          <h5 class="modal-title fw-semibold" id="cartModalLabel">Add to Cart Details</h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body px-4 py-3">
+          <div class="mb-3">
+            <label for="date" class="form-label">Select Date</label>
+            <input type="date" id="date" class="form-control" required>
           </div>
-          <div class="modal-body">
-            <div class="mb-3">
-              <label for="date" class="form-label">Select Date</label>
-              <input type="date" id="date" required>
-            </div>
-            <div class="mb-3">
-              <label for="time" class="form-label">Select Time</label>
-              <input type="time" id="time" required>
-            </div>
-            <div class="mb-3">
-              <label for="branch" class="form-label">Branch Name</label>
-              <input type="text"  id="branch" required>
-            </div>
+          <div class="mb-3">
+            <label for="time" class="form-label">Select Time</label>
+            <input type="time" id="time" class="form-control" required>
           </div>
-          <div class="modal-footer">
-            <button type="submit" class="border-circle px-4 py-2 rounded-pill text-white">Confirm and Add to Cart</button>
+          <div class="mb-3">
+            <label for="branch" class="form-label">Branch Name</label>
+            <select id="branch" class="form-select" required>
+              <option value="" selected disabled>Select Branch</option>
+              <option value="Bangalore">Bangalore</option>
+              <option value="Mumbai">Mumbai</option>
+              <option value="Chennai">Chennai</option>
+              <option value="Hyderabad">Hyderabad</option>
+              <!-- Add more branches as needed -->
+            </select>
           </div>
-        </form>
-      </div>
+        </div>
+        <div class="modal-footer border-0 px-4 pb-4">
+          <button type="submit" class="border-circle px-4 py-2 rounded-pill text-white">
+            <i class="fas fa-cart-plus me-2"></i>Confirm and Add to Cart
+          </button>
+        </div>
+      </form>
     </div>
   </div>
+</div>
+
 
   <!--********************************
     Code Ends Here 

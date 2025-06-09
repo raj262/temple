@@ -12970,24 +12970,12 @@ body.loaded #loader {
   }
 }
 
-/* Smooth fade-in effect for package footer text */
-/* .package-footer p {
-  opacity: 0;
-  transition: opacity 0.5s ease-in-out;
-}
-
-.package-style1:hover .package-footer p {
-  opacity: 1;
-} */
-
 /* Button hover effect */
 .text-center a {
   transition: background-color 0.3s ease;
 }
 
-.text-center a:hover {
-  background-color: #f39c12; /* Change color on hover */
-}
+
 
 
 /* media query */
@@ -13427,7 +13415,39 @@ body.loaded #loader {
       color: #6c757d;
     }
 
-    .slide{
+    .slide-box{
       background: #fbe2cc;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     }
+
+     .page-num.active {
+      color: #fff !important;
+      user-select: none;
+    }
+
+    .modal-header{
+      background-color: #FBE2CC;
+    }
+
+    /* vide page */
+    .package-title {
+  font-weight: 500;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.right-arrow i {
+  font-size: 1.5rem;
+  color: #333;
+  transition: color 0.3s ease;
+  cursor: pointer;
+}
+
+.package-content:hover .package-title {
+  text-decoration: underline;
+  color: #007bff;
+}
+
+.package-content:hover .right-arrow i {
+  color: #007bff;
+}
