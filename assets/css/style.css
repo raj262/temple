@@ -2906,7 +2906,7 @@ a.text-theme:hover,
 
 .will-sticky .sticky-active {
   position: fixed;
-  top: -100%;
+  top: 0%;
   right: 0;
   left: 0;
   background-color: var(--white-color);
@@ -2914,9 +2914,9 @@ a.text-theme:hover,
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.07);
 }
 
-.will-sticky .sticky-active.active {
+/* .will-sticky .sticky-active.active {
   top: 0;
-}
+} */
 
 .main-menu a {
   display: block;
@@ -13465,3 +13465,60 @@ body.loaded #loader {
 .sticky-active {
   padding: 10px 0; /* adjust padding if needed */
 }
+
+/* 
+donate page design css  */
+
+.card{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+  .seva-card {
+      background-color: #fff;
+      border-radius: 12px;
+      padding: 15px 20px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      transition: all 0.3s ease;
+    }
+
+    .seva-card:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    }
+
+    .seva-icon {
+      width: 28px;
+      height: 28px;
+      background-color: #eee;
+      border-radius: 50%;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: bold;
+      font-size: 18px;
+      margin-right: 12px;
+      color: #555;
+      border: 2px solid #ccc;
+    }
+
+    .seva-label {
+      font-weight: 500;
+      font-size: 16px;
+    }
+
+    .seva-price {
+      font-weight: 600;
+      font-size: 16px;
+      color: #000;
+    }
+
+
+    .fixed-top{
+      position: fixed;
+top: 0;
+width: 100%;
+z-index: 1030;
+    }
