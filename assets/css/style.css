@@ -3429,9 +3429,9 @@ Header Customization
   color: var(--theme-color2);
 }
 
-.menu-style1 > ul > li {
+/* .menu-style1 > ul > li {
   padding: 28px 0;
-}
+} */
 
 .menu-style1 > ul > li > a {
   padding: 0;
@@ -13522,3 +13522,18 @@ top: 0;
 width: 100%;
 z-index: 1030;
     }
+
+    .navbar .border-circle {
+  display: inline-block;
+  background-color: orange;
+  color: white;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 1.5;
+  padding: 8px 20px;
+  border-radius: 50px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  transition: all 0.3s ease-in-out;
+  text-align: center;
+  vertical-align: middle;
+}
