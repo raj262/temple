@@ -12643,9 +12643,9 @@ Header Customization
   text-decoration: none;
 }
 
-.border-circle:hover {
+/* .border-circle:hover {
   background-color: #f2870c !important;
-}
+} */
 
 .border-line {
   border-color: #f2870c !important;
@@ -12788,11 +12788,11 @@ Header Customization
   font-weight: 500;
 }
 
-.border-circle:hover {
+/* .border-circle:hover {
   transform: scale(1.05);
   box-shadow: 0 4px 15px rgba(0, 123, 255, 0.4);
   color: #fff;
-}
+} */
 
 .animated-title h2 {
   position: relative;
@@ -13525,7 +13525,6 @@ z-index: 1030;
 
     .navbar .border-circle {
   display: inline-block;
-  background-color: orange;
   color: white;
   font-weight: 500;
   font-size: 15px;
