@@ -13546,9 +13546,9 @@ z-index: 1030;
       background-color: #fff;
     }
 
-    .video-card:hover {
+    /* .video-card:hover {
       transform: scale(1.03);
-    }
+    } */
 
     .video-card .video-thumbnail {
       background-color: #000;
