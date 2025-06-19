@@ -3786,9 +3786,9 @@ Header Customization
 .breadcumb-menu span {
   white-space: normal;
   word-break: break-word;
-  font-weight: 400;
+  font-weight: 600;
   font-size: 18px;
-  color: var(--white-color);
+  color: #000;
 }
 
 .breadcumb-menu li > i,
@@ -3807,12 +3807,12 @@ Header Customization
   margin: 0 0 -5px 0;
 }
 
-.breadcumb-wrapper {
+/* .breadcumb-wrapper {
   padding-top: 180px;
   padding-bottom: 180px;
   background-color: var(--title-color);
-  /* Medium devices */
-}
+  
+} */
 
 @media (max-width: 991px) {
   .breadcumb-wrapper {
