@@ -13242,7 +13242,15 @@ body.loaded #loader {
     overflow-y: scroll;
     height: 100vh;
     padding-right: 15px;
-  }
+
+    /* Hide scrollbar for WebKit (Chrome, Safari) */
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* IE 10+ */
+}
+
+.branch-left::-webkit-scrollbar {
+    display: none; /* WebKit */
+}
 
   .branch-right {
     position: sticky;
