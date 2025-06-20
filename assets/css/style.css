@@ -2815,7 +2815,7 @@ a.text-theme:hover,
 }
 
 .social-style1 a {
-  width: 45px;
+  /* width: 45px;
   height: 45px;
   margin-right: 10px;
   border-radius: 50%;
@@ -2823,7 +2823,8 @@ a.text-theme:hover,
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  border: 1px solid var(--white-color);
+  border: 1px solid var(--white-color); */
+  padding: 10px 5px;
 }
 
 .social-style1 a:hover {
