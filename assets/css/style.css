@@ -823,19 +823,29 @@ textarea.is-invalid {
   opacity: 0;
   visibility: hidden;
 }
+.mobile-logo {
+  display: inline-block;
+  width: auto;
+  height: auto;
+}
 
-.vs-menu-wrapper .mobile-logo {
+.mobile-logo img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+/* .vs-menu-wrapper .mobile-logo {
   padding-bottom: 30px;
   padding-top: 40px;
   display: block;
   text-align: center;
   background-color: rgba(255, 104, 26, 0.1);
-}
+} */
 
-.vs-menu-wrapper .mobile-logo img,
+/* .vs-menu-wrapper .mobile-logo img,
 .vs-menu-wrapper .mobile-logo svg {
   max-width: 190px;
-}
+} */
 
 .vs-menu-wrapper .vs-menu-toggle {
   border: none;
@@ -849,8 +859,13 @@ textarea.is-invalid {
   height: 33px;
   z-index: 1;
   color: var(--white-color);
-  background-color: var(--theme-color);
+  /* background-color: var(--theme-color); */
+  background-color: #fff;
   border-radius: 50%;
+}
+.fa-times{
+  color: orangered;
+  font-weight: bold;
 }
 
 .vs-menu-wrapper .vs-menu-toggle i {
