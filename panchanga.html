@@ -46,6 +46,7 @@
 <body>
 
 
+
   <!--==============================
     Mobile Menu
   ============================== -->
@@ -184,7 +185,7 @@
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#">Archives</a>
               <ul class="sub-menu">
-                <li><a href="#">Download</a></li>
+               <li><a href="download.html">Download</a></li>
                 <li><a href="video.html">Video</a></li>
                 <li><a href="articles.html">Articles</a></li>
                 <li><a href="audio.html">Audio</a></li>
@@ -211,79 +212,82 @@
         <div class="breadcumb-menu-wrap">
           <ul class="breadcumb-menu">
             <li><a href="index.html">Home</a></li>
-            <li><a href="parampara.html">Panchanga</a></li>
+            <li><a href="panchanga.html">Panchanga</a></li>
           </ul>
         </div>
       </div>
     </div>
   </div>
 
-    <div class="container mt-4">
-        <div class="section-heading mb-5" data-aos="fade-up">
-            <h2 class="text-center fw-bold mt-3">Panchanga</h2>
-            <div class="line-icon-wrapper">
-                <span class="line"></span>
-                <span class="icon">
-                    <i class="fas fa-praying-hands"></i> <!-- You can replace this with another Mandir-related icon -->
-                </span>
-                <span class="line"></span>
-            </div>
-        </div>
-        <div class="row">
-            <!-- Calendar -->
-            <div class="col-md-6">
-                <div class="d-flex justify-content-between align-items-center mb-3">
-                    <button id="prevMonth" class="btn btn-outline-danger btn-sm">&lt;</button>
-                    <h3 id="monthYear" class="text-danger mb-0"></h3>
-                    <button id="nextMonth" class="btn btn-outline-danger btn-sm">&gt;</button>
-                </div>
-                <div class="d-flex justify-content-between text-danger fw-bold">
-                    <div>Sun</div>
-                    <div>Mon</div>
-                    <div>Tue</div>
-                    <div>Wed</div>
-                    <div>Thu</div>
-                    <div>Fri</div>
-                    <div>Sat</div>
-                </div>
-                <div id="calendar" class="d-flex flex-wrap mt-2"></div>
-            </div>
-
-            <!-- Panchanga -->
-            <div class="col-md-6">
-                <div class="card shadow-lg rounded-4 border-0 p-4" style="background-color: #fff5f5; height: 380px;">
-                    <div class="text-center mb-3">
-                        <h3 class="text-danger mb-0">🕉️ Panchanga</h3>
-                        <small class="text-muted" id="panchangaDate">Select a date to view details</small>
-                    </div>
-
-                    <div id="panchangaOutput" class="fs-6 text-dark overflow-auto" style="max-height: 280px;">
-                        <!-- Panchanga details will appear here -->
-                    </div>
-                </div>
-            </div>
-        </div>
+  <div class="container mt-4">
+   <div class="section-heading mb-4 mb-sm-4 mb-md-5 mb-lg-5 text-center" data-aos="fade-down">
+      <h2 class="text-center fw-bold mt-3">Panchanga</h2>
+      <div class="line-icon-wrapper">
+        <span class="line"></span>
+        <span class="icon">
+          <i class="fas fa-praying-hands"></i> <!-- You can replace this with another Mandir-related icon -->
+        </span>
+        <span class="line"></span>
+      </div>
     </div>
-    <!--==============================
+    <div class="row">
+      <!-- Calendar -->
+      <div class="col-md-6">
+        <div class="d-flex justify-content-between align-items-center mb-3">
+          <button id="prevMonth" class="btn btn-outline-danger btn-sm">&lt;</button>
+          <h3 id="monthYear" class="text-danger mb-0"></h3>
+          <button id="nextMonth" class="btn btn-outline-danger btn-sm">&gt;</button>
+        </div>
+        <div class="d-flex justify-content-between text-danger fw-bold">
+          <div>Sun</div>
+          <div>Mon</div>
+          <div>Tue</div>
+          <div>Wed</div>
+          <div>Thu</div>
+          <div>Fri</div>
+          <div>Sat</div>
+        </div>
+        <div id="calendar" class="d-flex flex-wrap mt-2"></div>
+      </div>
+
+      <!-- Panchanga -->
+      <div class="col-md-6">
+        <div class="card shadow-lg rounded-4 border-0 p-4" style="background-color: #fff5f5; height: 380px;">
+          <div class="text-center mb-3">
+            <h3 class="text-danger mb-0">🕉️ Panchanga</h3>
+            <small class="text-muted" id="panchangaDate">Select a date to view details</small>
+          </div>
+
+          <div id="panchangaOutput" class="fs-6 text-dark overflow-auto" style="max-height: 280px;">
+            <!-- Panchanga details will appear here -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--==============================
 	  Footer Area
 	==============================-->
   <div class="footer-top m-4 position-relative overflow-hidden">
     <div class="shadow-color position-absolute top-0 start-0 w-100 h-100"></div>
     <div class="container position-relative" style="z-index: 2;">
       <div class="cta-style1 text-white py-5">
-        <div class="row align-items-center justify-content-center text-center text-lg-start">
-          <div class="col-lg-6 mb-4 mb-lg-0" data-aos="fade-right" data-aos-duration="1000">
-            <div class="cta-content">
-              <h2 class="fw-bold mb-3">Book your Sēva Online Now</h2>
-              <p class="cta-text fs-5">The Matha is constantly working to provide its devotees a simple experience to
-                book your sēva.</p>
+        <!-- Updated row with flex-column on small screens and row on large screens -->
+        <div class="row align-items-center justify-content-center text-center flex-column flex-lg-row">
+
+          <!-- Centered heading -->
+          <div class="col-lg-6 mb-lg-0" data-aos="fade-right" data-aos-duration="1000">
+            <div class="cta-content text-center">
+              <h2 class="fw-bold">Book your Sēva Online Now</h2>
             </div>
           </div>
+
+          <!-- Button group -->
           <div class="col-lg-6 col-md-6 col-sm-8" data-aos="fade-left" data-aos-duration="1000">
             <div class="text-center text-lg-end">
               <div
                 class="d-flex flex-column flex-lg-row justify-content-center justify-content-lg-end align-items-center gap-2">
-                <a href="contact.html" class="px-5 py-3 border-circle  rounded-pill text-white">
+                <a href="contact.html" class="px-5 py-3 border-circle rounded-pill text-white">
                   Book Your Sēva
                 </a>
                 <a href="donate.html" class="px-5 py-3 border-circle rounded-pill text-white">
@@ -291,241 +295,259 @@
                 </a>
               </div>
             </div>
-
           </div>
+
         </div>
       </div>
     </div>
   </div>
 
-    <footer class="footer-wrapper footer-layout1">
 
-        <div class="widget-area">
-            <div class="container">
-                <div class="row g-5 justify-content-between">
-                    <div class="col-md-6 col-xl-3">
-                        <div class="widget footer-widget">
-                            <div class="vs-widget-about">
-                                <div class="footer-logo">
-                                    <a href="index.html" style="    font-size: 25px;
+  <footer class="footer-wrapper footer-layout1">
+
+    <div class="widget-area">
+      <div class="container">
+        <div class="row g-5 justify-content-between">
+          <div class="col-md-6 col-xl-3">
+            <div class="widget footer-widget">
+              <div class="vs-widget-about">
+                <div class="footer-logo">
+                  <a href="index.html" style="    font-size: 25px;
                   font-weight: bold;
                   color: #FBE2CC;">
-                                        Vyasaraja Matha
+                    Vyasaraja Matha
 
-                                        <!-- <img src="assets/img/white-logo.svg" alt="Travolo" class="logo" /> -->
-                                    </a>
-                                </div>
-                                <p class="footer-text">Curabitur aliquet quam id dui bandit posuere blandit. Vivamfdsus
-                                    magna justo
-                                    blandit aliquet.</p>
-                                <div class="social-style1">
-                                    <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
-                                    <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
-                                    <a href="#" target="_blank"><i class="fab fa-pinterest-p"></i></a>
-                                    <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-xl-2">
-                        <div class="widget widget_nav_menu footer-widget">
-                            <h3 class="widget_title">Useful Links</h3>
-                            <div class="menu-all-pages-container">
-                                <ul class="menu">
-                                    <li><a href="index.html"><i class="far fa-angle-right"></i> Home</a></li>
-                                    <li><a href="#"><i class="far fa-angle-right"></i> About Us</a></li>
-                                    <li><a href="#"><i class="far fa-angle-right"></i> Contact Us</a></li>
-                                    <li><a href="#"><i class="far fa-angle-right"></i> Prandevaru
-                                        </a></li>
-                                    <li><a href="#"><i class="far fa-angle-right"></i> Gallery</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-xl-3">
-                        <div class="widget footer-widget">
-                            <h4 class="widget_title">Gallery</h4>
-                            <div class="sidebar-gallery">
-                                <a href="assets/img/footer/insta1.jpg" class="popup-image"><img
-                                        src="assets/img/footer/insta1.jpg" alt="Gallery Image" class="w-100" />
-                                </a>
-                                <a href="assets/img/footer/insta2.jpg" class="popup-image"><img
-                                        src="assets/img/footer/insta2.jpg" alt="Gallery Image" class="w-100" />
-                                </a>
-                                <a href="assets/img/footer/insta3.jpg" class="popup-image"><img
-                                        src="assets/img/footer/insta3.jpg" alt="Gallery Image" class="w-100" />
-                                </a>
-                                <a href="assets/img/footer/insta4.jpg" class="popup-image"><img
-                                        src="assets/img/footer/insta4.jpg" alt="Gallery Image" class="w-100" />
-                                </a>
-                                <a href="assets/img/footer/insta5.jpg" class="popup-image"><img
-                                        src="assets/img/footer/insta5.jpg" alt="Gallery Image" class="w-100" />
-                                </a>
-                                <a href="assets/img/footer/insta6.jpg" class="popup-image"><img
-                                        src="assets/img/footer/insta6.jpg" alt="Gallery Image" class="w-100" />
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-xl-3">
-                        <div class="widget footer-widget">
-                            <h4 class="widget_title">Download Our App</h4>
-                            <form class="newsletter-form">
-                                <p class="form_text">Get daily updates, Panchanga, and more on your mobile device.</p>
-                                <div>
-                                    <a href="#" class="btn btn-light d-flex align-items-center mb-2">
-                                        <i class="ri-apple-fill fs-4 me-2"></i>
-                                        <div>
-                                            <small>Download on the</small><br><strong>App Store</strong>
-                                        </div>
-                                    </a>
-                                    <a href="#" class="btn btn-light d-flex align-items-center">
-                                        <i class="ri-google-play-fill fs-4 me-2"></i>
-                                        <div>
-                                            <small>Get it on</small><br><strong>Google Play</strong>
-                                        </div>
-                                    </a>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
+                    <!-- <img src="assets/img/white-logo.svg" alt="Travolo" class="logo" /> -->
+                  </a>
                 </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="copyright-wrap">
-                <div class="row justify-content-between align-items-center">
-                    <div class="col-lg-auto">
-                        <p class="copyright-text">Copyright <i class="fal fa-copyright"></i>
-                            <script>document.write(new Date().getFullYear())</script> <a href="index.html">Vyasaraja
-                                Matha</a>.
-                            All Rights Reserved By <a href="https://themeforest.net/user/vecuro">Vyasaraja Matha</a>
-                        </p>
-                    </div>
-                    <div class="col-auto d-none d-lg-block">
-                        <div class="copyright-menu">
-                            <ul class="list-unstyled">
-                                 <li><a href="privacy-policy.html">Privacy</a></li>
-                                <li><a href="term.html">Terms & Conditions</a></li>
-                            </ul>
-                        </div>
-                    </div>
+                <p class="footer-text">Curabitur aliquet quam id dui bandit posuere blandit. Vivamfdsus
+                  magna justo
+                  blandit aliquet.</p>
+                <div class="social-style1">
+                  <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                  <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                  <a href="#" target="_blank"><i class="fab fa-pinterest-p"></i></a>
+                  <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                  <a href="https://chatgpt.com/g/g-67a39378e5648191be602eb7747592ff-madhwa-gpt" target="_blank"><img
+                      src="assets/img/chatgpt.svg" alt="chatgpt" width="20" /></a>
                 </div>
+              </div>
             </div>
+          </div>
+          <div class="col-md-6 col-xl-2">
+            <div class="widget widget_nav_menu footer-widget">
+              <h3 class="widget_title">Useful Links</h3>
+              <div class="menu-all-pages-container">
+                <ul class="menu">
+                  <li><a href="index.html"><i class="far fa-angle-right"></i> Home</a></li>
+                  <li><a href="#"><i class="far fa-angle-right"></i> About Us</a></li>
+                  <li><a href="#"><i class="far fa-angle-right"></i> Contact Us</a></li>
+                  <li><a href="#"><i class="far fa-angle-right"></i> Prandevaru
+                    </a></li>
+                  <li><a href="#"><i class="far fa-angle-right"></i> Gallery</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-xl-3">
+            <div class="widget footer-widget">
+              <h4 class="widget_title">Gallery</h4>
+              <div class="sidebar-gallery">
+                <a href="assets/img/footer/insta1.jpg" class="popup-image"><img src="assets/img/footer/insta1.jpg"
+                    alt="Gallery Image" class="w-100" />
+                </a>
+                <a href="assets/img/footer/insta2.jpg" class="popup-image"><img src="assets/img/footer/insta2.jpg"
+                    alt="Gallery Image" class="w-100" />
+                </a>
+                <a href="assets/img/footer/insta3.jpg" class="popup-image"><img src="assets/img/footer/insta3.jpg"
+                    alt="Gallery Image" class="w-100" />
+                </a>
+                <a href="assets/img/footer/insta4.jpg" class="popup-image"><img src="assets/img/footer/insta4.jpg"
+                    alt="Gallery Image" class="w-100" />
+                </a>
+                <a href="assets/img/footer/insta5.jpg" class="popup-image"><img src="assets/img/footer/insta5.jpg"
+                    alt="Gallery Image" class="w-100" />
+                </a>
+                <a href="assets/img/footer/insta6.jpg" class="popup-image"><img src="assets/img/footer/insta6.jpg"
+                    alt="Gallery Image" class="w-100" />
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-xl-3">
+            <div class="widget footer-widget">
+              <h4 class="widget_title">Download Our App</h4>
+              <form class="newsletter-form">
+                <p class="form_text">Get daily updates, Panchanga, and more on your mobile device.</p>
+                <div>
+                  <a href="#" class="btn btn-light d-flex align-items-center mb-2">
+                    <i class="ri-apple-fill fs-4 me-2"></i>
+                    <div>
+                      <small>Download on the</small><br><strong>App Store</strong>
+                    </div>
+                  </a>
+                  <a href="#" class="btn btn-light d-flex align-items-center">
+                    <i class="ri-google-play-fill fs-4 me-2"></i>
+                    <div>
+                      <small>Get it on</small><br><strong>Google Play</strong>
+                    </div>
+                  </a>
+                </div>
+              </form>
+            </div>
+          </div>
         </div>
-    </footer>
+      </div>
+    </div>
+    <div class="container">
+      <div class="copyright-wrap">
+        <div class="row justify-content-between align-items-center">
+          <div class="col-lg-auto">
+            <p class="copyright-text">Copyright <i class="fal fa-copyright"></i>
+              <script>document.write(new Date().getFullYear())</script> <a href="index.html">Vyasaraja
+                Matha</a>.
+              All Rights Reserved By <a href="https://themeforest.net/user/vecuro">Vyasaraja Matha</a>
+            </p>
+          </div>
+          <div class="col-auto d-none d-lg-block">
+            <div class="copyright-menu">
+              <ul class="list-unstyled">
+                <li><a href="privacy-policy.html">Privacy</a></li>
+                <li><a href="term.html">Terms & Conditions</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
 
-    <!--********************************
+  <!--********************************
     Code Ends Here 
 	******************************** -->
 
-    <!-- Scroll To Top -->
-    <a href="#" class="scrollToTop scroll-btn"><i class="far fa-arrow-up"></i></a>
+  <!-- Scroll To Top -->
+  <a href="#" class="scrollToTop scroll-btn"><i class="far fa-arrow-up"></i></a>
 
-    <!--==============================
+  <!--==============================
     All Js File
 ============================== -->
-    <!-- Jquery -->
-    <script src="assets/js/vendor/jquery-3.6.0.min.js"></script>
-    <!-- Slick Slider -->
-    <script src="assets/js/slick.min.js"></script>
-    <!-- Bootstrap -->
-    <script src="assets/js/bootstrap.min.js"></script>
-    <!-- Magnific Popup -->
-    <script src="assets/js/jquery.magnific-popup.min.js"></script>
-    <!-- jquery Ui -->
-    <script src="assets/js/jquery-ui.min.js"></script>
-    <!-- Circle Progress -->
-    <script src="assets/js/circle-progress.min.js"></script>
-    <!-- isotope -->
-    <script src="assets/js/imagesLoaded.js"></script>
-    <script src="assets/js/isotope.js"></script>
-    <!-- Wow.js -->
-    <script src="assets/js/wow.min.js"></script>
-    <!-- Main Js File -->
-    <script src="assets/js/main.js"></script>
-    <!-- Bootstrap JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
-    <script>
-        // Initialize AOS
-        AOS.init({
-            offset: 120, // Start animations when the section is 120px from the viewport
-            delay: 0, // No delay between animations
-            duration: 800, // Duration of the animation in ms
-            easing: 'ease', // Easing effect for animation
-            once: false, // This makes the animation run every time the element enters the viewport
-            mirror: true // This makes the animation trigger when scrolling both up and down
+  <!-- Jquery -->
+  <script src="assets/js/vendor/jquery-3.6.0.min.js"></script>
+  <!-- Slick Slider -->
+  <script src="assets/js/slick.min.js"></script>
+  <!-- Bootstrap -->
+  <script src="assets/js/bootstrap.min.js"></script>
+  <!-- Magnific Popup -->
+  <script src="assets/js/jquery.magnific-popup.min.js"></script>
+  <!-- jquery Ui -->
+  <script src="assets/js/jquery-ui.min.js"></script>
+  <!-- Circle Progress -->
+  <script src="assets/js/circle-progress.min.js"></script>
+  <!-- isotope -->
+  <script src="assets/js/imagesLoaded.js"></script>
+  <script src="assets/js/isotope.js"></script>
+  <!-- Wow.js -->
+  <script src="assets/js/wow.min.js"></script>
+  <!-- Main Js File -->
+  <script src="assets/js/main.js"></script>
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    // Initialize AOS
+    AOS.init({
+      offset: 120, // Start animations when the section is 120px from the viewport
+      delay: 0, // No delay between animations
+      duration: 800, // Duration of the animation in ms
+      easing: 'ease', // Easing effect for animation
+      once: false, // This makes the animation run every time the element enters the viewport
+      mirror: true // This makes the animation trigger when scrolling both up and down
+    });
+
+    // Wait for the page to load
+    window.addEventListener("load", () => {
+      // Add a small timeout to ensure the transition is smooth
+      setTimeout(() => {
+        document.body.classList.add("loaded");
+      }, 500); // Delay for 500ms to allow loader fade out
+    });
+
+    new WOW().init();
+  </script>
+  <script>
+    const calendar = document.getElementById('calendar');
+    const monthYear = document.getElementById('monthYear');
+    const panchangaOutput = document.getElementById('panchangaOutput');
+    const prevMonthBtn = document.getElementById('prevMonth');
+    const nextMonthBtn = document.getElementById('nextMonth');
+
+    let currentDate = new Date();
+    const today = new Date(); // store today's date separately
+
+    const renderCalendar = () => {
+      calendar.innerHTML = '';
+      const year = currentDate.getFullYear();
+      const month = currentDate.getMonth();
+      const firstDay = new Date(year, month, 1).getDay();
+      const lastDate = new Date(year, month + 1, 0).getDate();
+
+      monthYear.innerText = `${currentDate.toLocaleString('default', { month: 'long' })} ${year}`;
+
+      for (let i = 0; i < firstDay; i++) {
+        const empty = document.createElement('div');
+        empty.classList.add('calendar-day');
+        calendar.appendChild(empty);
+      }
+
+      for (let day = 1; day <= lastDate; day++) {
+        const dateCell = document.createElement('div');
+        dateCell.className = 'calendar-day bg-light';
+        dateCell.innerText = day;
+
+        // Check if this day is today and in the same month/year
+        const isToday = day === today.getDate() &&
+          month === today.getMonth() &&
+          year === today.getFullYear();
+
+        if (isToday) {
+          dateCell.classList.add('selected');
+          setTimeout(() => {
+            panchangaOutput.innerHTML = `
+                        <strong>Panchanga for ${day} ${currentDate.toLocaleString('default', { month: 'long' })} ${year}</strong><br>
+                        • Tithi: Ekadashi<br>• Nakshatra: Rohini<br>• Yoga: Siddhi`;
+          }, 800);
+        }
+
+        dateCell.addEventListener('click', () => {
+          document.querySelectorAll('.calendar-day').forEach(el => el.classList.remove('selected'));
+          dateCell.classList.add('selected');
+          panchangaOutput.innerHTML = `<span class="text-warning">Loading...</span>`;
+          setTimeout(() => {
+            panchangaOutput.innerHTML = `
+                        <strong>Panchanga for ${day} ${currentDate.toLocaleString('default', { month: 'long' })} ${year}</strong><br>
+                        • Tithi: Ekadashi<br>• Nakshatra: Rohini<br>• Yoga: Siddhi`;
+          }, 800);
         });
 
-        // Wait for the page to load
-        window.addEventListener("load", () => {
-            // Add a small timeout to ensure the transition is smooth
-            setTimeout(() => {
-                document.body.classList.add("loaded");
-            }, 500); // Delay for 500ms to allow loader fade out
-        });
+        calendar.appendChild(dateCell);
+      }
+    };
 
-        new WOW().init();
-    </script>
-    <script>
-        const calendar = document.getElementById('calendar');
-        const monthYear = document.getElementById('monthYear');
-        const panchangaOutput = document.getElementById('panchangaOutput');
-        const prevMonthBtn = document.getElementById('prevMonth');
-        const nextMonthBtn = document.getElementById('nextMonth');
+    prevMonthBtn.addEventListener('click', () => {
+      currentDate.setMonth(currentDate.getMonth() - 1);
+      renderCalendar();
+      panchangaOutput.innerHTML = "Select a date";
+    });
 
-        let currentDate = new Date();
+    nextMonthBtn.addEventListener('click', () => {
+      currentDate.setMonth(currentDate.getMonth() + 1);
+      renderCalendar();
+      panchangaOutput.innerHTML = "Select a date";
+    });
 
-        const renderCalendar = () => {
-            calendar.innerHTML = '';
-            const year = currentDate.getFullYear();
-            const month = currentDate.getMonth();
-            const firstDay = new Date(year, month, 1).getDay();
-            const lastDate = new Date(year, month + 1, 0).getDate();
-
-            monthYear.innerText = `${currentDate.toLocaleString('default', { month: 'long' })} ${year}`;
-
-            for (let i = 0; i < firstDay; i++) {
-                const empty = document.createElement('div');
-                empty.classList.add('calendar-day');
-                calendar.appendChild(empty);
-            }
-
-            for (let day = 1; day <= lastDate; day++) {
-                const dateCell = document.createElement('div');
-                dateCell.className = 'calendar-day bg-light';
-                dateCell.innerText = day;
-
-                dateCell.addEventListener('click', () => {
-                    document.querySelectorAll('.calendar-day').forEach(el => el.classList.remove('selected'));
-                    dateCell.classList.add('selected');
-                    panchangaOutput.innerHTML = `<span class="text-warning">Loading...</span>`;
-                    setTimeout(() => {
-                        panchangaOutput.innerHTML = `
-              <strong>Panchanga for ${day} ${currentDate.toLocaleString('default', { month: 'long' })} ${year}</strong><br>
-              • Tithi: Ekadashi<br>• Nakshatra: Rohini<br>• Yoga: Siddhi`;
-                    }, 800);
-                });
-
-                calendar.appendChild(dateCell);
-            }
-        };
-
-        prevMonthBtn.addEventListener('click', () => {
-            currentDate.setMonth(currentDate.getMonth() - 1);
-            renderCalendar();
-            panchangaOutput.innerHTML = "Select a date";
-        });
-
-        nextMonthBtn.addEventListener('click', () => {
-            currentDate.setMonth(currentDate.getMonth() + 1);
-            renderCalendar();
-            panchangaOutput.innerHTML = "Select a date";
-        });
-
-        renderCalendar();
-    </script>
+    renderCalendar(); // initial render with today's date selected
+  </script>
 </body>
 
 </html>
