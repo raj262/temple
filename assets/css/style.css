@@ -11597,9 +11597,44 @@ Header Customization
   /* Large devices */
 }
 
-@media (max-width: 1199px) {
+/* @media (max-width: 1199px) {
    .package-content {
     padding: 25px 15px 15px;
+  }
+} */
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .package-content {
+    padding: 30px 20px 20px;
+  }
+}
+
+/* Large devices (desktops, 992px to 1199px) */
+@media (max-width: 1199px) and (min-width: 992px) {
+  .package-content {
+    padding: 25px 15px 15px;
+  }
+}
+
+/* Medium devices (tablets, 768px to 991px) */
+@media (max-width: 991px) and (min-width: 768px) {
+  .package-content {
+    padding: 20px 15px 15px;
+  }
+}
+
+/* Small devices (landscape phones, 576px to 767px) */
+@media (max-width: 767px) and (min-width: 576px) {
+  .package-content {
+    padding: 18px 10px 10px;
+  }
+}
+
+/* Extra small devices (phones, less than 576px) */
+@media (max-width: 575px) {
+  .package-content {
+    padding: 0px 0px 0px 0px;
   }
 }
 
